@@ -1,0 +1,15 @@
+; LootAllButton_ctor  0x9CB140..0x9CB183 len 0x43
+0x009CB140  4883ec28                 sub rsp, 0x28
+0x009CB144  803de2f5d31000           cmp byte ptr [rip + 0x10d3f5e2], 0
+0x009CB14B  7518                     jne 0x9cb165
+0x009CB14D  488d0d94df8810           lea rcx, [rip + 0x1088df94]
+0x009CB154  e897a2e5ff               call 0x8253f0
+0x009CB159  f0830c2400               lock or dword ptr [rsp], 0
+0x009CB15E  c605c8f5d31001           mov byte ptr [rip + 0x10d3f5c8], 1
+0x009CB165  488b0d7cdf8810           mov rcx, qword ptr [rip + 0x1088df7c]
+0x009CB16C  83b9e400000000           cmp dword ptr [rcx + 0xe4], 0
+0x009CB173  7509                     jne 0x9cb17e
+0x009CB175  4883c428                 add rsp, 0x28
+0x009CB179  e9225ce5ff               jmp 0x820da0
+0x009CB17E  4883c428                 add rsp, 0x28
+0x009CB182  c3                       ret 

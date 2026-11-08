@@ -1,0 +1,572 @@
+{
+  "dll": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Rust\\GameAssembly.dll",
+  "size": 304039424,
+  "known": [
+    {
+      "name": "ClientEntitiesDecrypt",
+      "wrapper": true,
+      "consts": [
+        "0x49f666dd",
+        "0x165993a",
+        "0x6ea51c6"
+      ],
+      "expected": [
+        [
+          "sub",
+          1240884957
+        ],
+        [
+          "xor",
+          23435578
+        ],
+        [
+          "rol",
+          12
+        ],
+        [
+          "xor",
+          116019654
+        ]
+      ],
+      "func_rva": 89808029,
+      "func_end": 89808285,
+      "block_rva": 89808114,
+      "expr": "((((u32)(((v - 0x49F666DDu) ^ 0x0165993Au)) >> 20) | ((u32)(((v - 0x49F666DDu) ^ 0x0165993Au)) << 12)) ^ 0x06EA51C6u)",
+      "chain": [
+        [
+          "sub",
+          1240884957
+        ],
+        [
+          "xor",
+          23435578
+        ],
+        [
+          "rol",
+          12
+        ],
+        [
+          "xor",
+          116019654
+        ]
+      ],
+      "decrypt_chain": [
+        [
+          "sub",
+          1240884957
+        ],
+        [
+          "xor",
+          23435578
+        ],
+        [
+          "rol",
+          12
+        ],
+        [
+          "xor",
+          116019654
+        ]
+      ],
+      "direction": "direct",
+      "match": true
+    },
+    {
+      "name": "EntityListDecrypt",
+      "wrapper": true,
+      "consts": [
+        "0x606a395c",
+        "0x380cdd1c"
+      ],
+      "expected": [
+        [
+          "add",
+          1617574236
+        ],
+        [
+          "rol",
+          17
+        ],
+        [
+          "sub",
+          940367132
+        ]
+      ],
+      "func_rva": 29738320,
+      "func_end": 29738870,
+      "block_rva": 29738432,
+      "expr": "((((u32)((v + 0x606A395Cu)) >> 15) | ((u32)((v + 0x606A395Cu)) << 17)) - 0x380CDD1Cu)",
+      "chain": [
+        [
+          "add",
+          1617574236
+        ],
+        [
+          "rol",
+          17
+        ],
+        [
+          "sub",
+          940367132
+        ]
+      ],
+      "decrypt_chain": [
+        [
+          "add",
+          1617574236
+        ],
+        [
+          "rol",
+          17
+        ],
+        [
+          "sub",
+          940367132
+        ]
+      ],
+      "direction": "direct",
+      "match": true
+    },
+    {
+      "name": "PlayerEyesDecrypt",
+      "wrapper": true,
+      "consts": [
+        "0x8d1fb868",
+        "0xbd80150d",
+        "0x5aa25993"
+      ],
+      "expected": [
+        [
+          "xor",
+          2367666280
+        ],
+        [
+          "rol",
+          13
+        ],
+        [
+          "xor",
+          3179287821
+        ],
+        [
+          "add",
+          1520589203
+        ]
+      ],
+      "func_rva": 67308784,
+      "func_end": 67308899,
+      "block_rva": 67308848,
+      "expr": "(((((u32)((v ^ 0x8D1FB868u)) >> 19) | ((u32)((v ^ 0x8D1FB868u)) << 13)) ^ 0xBD80150Du) + 0x5AA25993u)",
+      "chain": [
+        [
+          "xor",
+          2367666280
+        ],
+        [
+          "rol",
+          13
+        ],
+        [
+          "xor",
+          3179287821
+        ],
+        [
+          "add",
+          1520589203
+        ]
+      ],
+      "decrypt_chain": [
+        [
+          "xor",
+          2367666280
+        ],
+        [
+          "rol",
+          13
+        ],
+        [
+          "xor",
+          3179287821
+        ],
+        [
+          "add",
+          1520589203
+        ]
+      ],
+      "direction": "direct",
+      "match": true
+    },
+    {
+      "name": "PlayerInventoryDecrypt",
+      "wrapper": true,
+      "consts": [
+        "0xa0eb8d31",
+        "0x133b75fc"
+      ],
+      "expected": [
+        [
+          "rol",
+          2
+        ],
+        [
+          "add",
+          2699791665
+        ],
+        [
+          "rol",
+          31
+        ],
+        [
+          "sub",
+          322663932
+        ]
+      ],
+      "func_rva": 65143976,
+      "func_end": 65144348,
+      "block_rva": 65144016,
+      "expr": "((((u32)(((((u32)(v) >> 30) | ((u32)(v) << 2)) + 0xA0EB8D31u)) >> 1) | ((u32)(((((u32)(v) >> 30) | ((u32)(v) << 2)) + 0xA0EB8D31u)) << 31)) - 0x133B75FCu)",
+      "chain": [
+        [
+          "rol",
+          2
+        ],
+        [
+          "add",
+          2699791665
+        ],
+        [
+          "rol",
+          31
+        ],
+        [
+          "sub",
+          322663932
+        ]
+      ],
+      "decrypt_chain": [
+        [
+          "rol",
+          2
+        ],
+        [
+          "add",
+          2699791665
+        ],
+        [
+          "rol",
+          31
+        ],
+        [
+          "sub",
+          322663932
+        ]
+      ],
+      "direction": "direct",
+      "match": true
+    },
+    {
+      "name": "ClActiveItemDecrypt",
+      "wrapper": false,
+      "consts": [
+        "0xec201afb",
+        "0x3d62f8ba"
+      ],
+      "expected": [
+        [
+          "rol",
+          2
+        ],
+        [
+          "xor",
+          3961527035
+        ],
+        [
+          "add",
+          1029896378
+        ],
+        [
+          "rol",
+          16
+        ]
+      ],
+      "func_rva": 65594848,
+      "func_end": 65594938,
+      "block_rva": 65594880,
+      "expr": "(((u32)((((((u32)(v) << 2) | ((u32)(v) >> 30)) ^ 0xEC201AFBu) + 0x3D62F8BAu)) >> 16) | ((u32)((((((u32)(v) << 2) | ((u32)(v) >> 30)) ^ 0xEC201AFBu) + 0x3D62F8BAu)) << 16))",
+      "chain": [
+        [
+          "rol",
+          2
+        ],
+        [
+          "xor",
+          3961527035
+        ],
+        [
+          "add",
+          1029896378
+        ],
+        [
+          "rol",
+          16
+        ]
+      ],
+      "decrypt_chain": [
+        [
+          "rol",
+          2
+        ],
+        [
+          "xor",
+          3961527035
+        ],
+        [
+          "add",
+          1029896378
+        ],
+        [
+          "rol",
+          16
+        ]
+      ],
+      "direction": "direct",
+      "match": true
+    },
+    {
+      "name": "UserIDDecrypt",
+      "wrapper": false,
+      "consts": [
+        "0x37ed3e45"
+      ],
+      "expected": [
+        [
+          "rol",
+          26
+        ],
+        [
+          "add",
+          938294853
+        ],
+        [
+          "rol",
+          28
+        ]
+      ],
+      "func_rva": 65938112,
+      "func_end": 65938201,
+      "block_rva": 65938144,
+      "expr": "(((u32)(((((u32)(v) >> 6) | ((u32)(v) << 26)) + 0x37ED3E45u)) >> 4) | ((u32)(((((u32)(v) >> 6) | ((u32)(v) << 26)) + 0x37ED3E45u)) << 28))",
+      "chain": [
+        [
+          "rol",
+          26
+        ],
+        [
+          "add",
+          938294853
+        ],
+        [
+          "rol",
+          28
+        ]
+      ],
+      "decrypt_chain": [
+        [
+          "rol",
+          26
+        ],
+        [
+          "add",
+          938294853
+        ],
+        [
+          "rol",
+          28
+        ]
+      ],
+      "direction": "direct",
+      "match": true
+    },
+    {
+      "name": "PlayerWalkMovementBody",
+      "wrapper": true,
+      "consts": [
+        "0x2d8a92d2",
+        "0x5d467f75"
+      ],
+      "expected": [
+        [
+          "add",
+          764056274
+        ],
+        [
+          "rol",
+          27
+        ],
+        [
+          "sub",
+          1564901237
+        ],
+        [
+          "rol",
+          10
+        ]
+      ],
+      "func_rva": 103095603,
+      "func_end": 103095942,
+      "block_rva": 103095824,
+      "expr": "((((u32)(((((u32)(v) >> 10) | ((u32)(v) << 22)) + 0x5D467F75u)) >> 27) | ((u32)(((((u32)(v) >> 10) | ((u32)(v) << 22)) + 0x5D467F75u)) << 5)) - 0x2D8A92D2u)",
+      "chain": [
+        [
+          "rol",
+          22
+        ],
+        [
+          "add",
+          1564901237
+        ],
+        [
+          "rol",
+          5
+        ],
+        [
+          "sub",
+          764056274
+        ]
+      ],
+      "decrypt_chain": [
+        [
+          "add",
+          764056274
+        ],
+        [
+          "rol",
+          27
+        ],
+        [
+          "sub",
+          1564901237
+        ],
+        [
+          "rol",
+          10
+        ]
+      ],
+      "direction": "inverse",
+      "match": true
+    },
+    {
+      "name": "PlayerWalkMovementCapsule",
+      "wrapper": true,
+      "consts": [
+        "0x29260396",
+        "0x3ebf0def",
+        "0x4e1f5e20"
+      ],
+      "expected": [
+        [
+          "add",
+          690357142
+        ],
+        [
+          "xor",
+          1052708335
+        ],
+        [
+          "add",
+          1310678560
+        ]
+      ],
+      "func_rva": 102885790,
+      "func_end": 102886137,
+      "block_rva": 102885824,
+      "expr": "(((v + 0x29260396u) ^ 0x3EBF0DEFu) + 0x4E1F5E20u)",
+      "chain": [
+        [
+          "add",
+          690357142
+        ],
+        [
+          "xor",
+          1052708335
+        ],
+        [
+          "add",
+          1310678560
+        ]
+      ],
+      "decrypt_chain": [
+        [
+          "add",
+          690357142
+        ],
+        [
+          "xor",
+          1052708335
+        ],
+        [
+          "add",
+          1310678560
+        ]
+      ],
+      "direction": "direct",
+      "match": true
+    },
+    {
+      "name": "BasePlayerCapsuleCollider",
+      "wrapper": true,
+      "consts": [
+        "0x7715bc77"
+      ],
+      "expected": [
+        [
+          "rol",
+          18
+        ],
+        [
+          "sub",
+          1997913207
+        ],
+        [
+          "rol",
+          17
+        ]
+      ],
+      "func_rva": 65750520,
+      "func_end": 65750917,
+      "block_rva": 65750848,
+      "expr": "(((u32)(((((u32)(v) >> 17) | ((u32)(v) << 15)) + 0x7715BC77u)) >> 18) | ((u32)(((((u32)(v) >> 17) | ((u32)(v) << 15)) + 0x7715BC77u)) << 14))",
+      "chain": [
+        [
+          "rol",
+          15
+        ],
+        [
+          "add",
+          1997913207
+        ],
+        [
+          "rol",
+          14
+        ]
+      ],
+      "decrypt_chain": [
+        [
+          "rol",
+          18
+        ],
+        [
+          "sub",
+          1997913207
+        ],
+        [
+          "rol",
+          17
+        ]
+      ],
+      "direction": "inverse",
+      "match": true
+    }
+  ],
+  "census": []
+}

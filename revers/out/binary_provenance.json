@@ -1,0 +1,2080 @@
+{
+  "BasePlayer": [
+    {
+      "name": "UserIDString",
+      "offset": 752,
+      "type": "string",
+      "kind": "code",
+      "method": "%2dff86d71092c5b934f2637134d8080796829216",
+      "method_rva": 65166128,
+      "insn_rva": 65166625,
+      "insn": "mov qword ptr [rbx + 0x2f0], rax"
+    },
+    {
+      "name": "blueprints",
+      "offset": 792,
+      "type": "PlayerBlueprints",
+      "kind": "code",
+      "method": "%2dff86d71092c5b934f2637134d8080796829216",
+      "method_rva": 65166128,
+      "insn_rva": 65167959,
+      "insn": "mov rcx, qword ptr [rbx + 0x318]"
+    },
+    {
+      "name": "lastSentTick",
+      "offset": 856,
+      "type": "int",
+      "kind": "code",
+      "method": "%a0bb7df78a19e5333f3e1f72a87a06c4b782e40e",
+      "method_rva": 65461744,
+      "insn_rva": 65462283,
+      "insn": "mov ecx, dword ptr [rax + 0x358]"
+    },
+    {
+      "name": "currentTeam",
+      "offset": 872,
+      "type": "ulong",
+      "kind": "code",
+      "method": "%2dff86d71092c5b934f2637134d8080796829216",
+      "method_rva": 65166128,
+      "insn_rva": 65168481,
+      "insn": "mov qword ptr [rbx + 0x368], rax"
+    },
+    {
+      "name": "modelState",
+      "offset": 920,
+      "type": "ModelState",
+      "kind": "code",
+      "method": "%fee90ce8dc753148ed864b0361f1338df70fd03c",
+      "method_rva": 65102464,
+      "insn_rva": 65102530,
+      "insn": "mov r8, qword ptr [rbx + 0x398]"
+    },
+    {
+      "name": "voiceRecorder",
+      "offset": 952,
+      "type": "PlayerVoiceRecorder",
+      "kind": "code",
+      "method": "%a15d2fe174cc1df3c887712a6132ecbaec19bf2d",
+      "method_rva": 65097504,
+      "insn_rva": 65098168,
+      "insn": "cmp byte ptr [rax + 0x3b8], 0"
+    },
+    {
+      "name": "eyes",
+      "offset": 968,
+      "type": "PlayerEyes",
+      "kind": "code",
+      "method": "%5c766996bfbec9ad57dc6b2a858d6455d179402f",
+      "method_rva": 65118064,
+      "insn_rva": 65118070,
+      "insn": "mov rdi, qword ptr [rcx + 0x3c8]"
+    },
+    {
+      "name": "GestureViewModel",
+      "offset": 1080,
+      "type": "ViewModel",
+      "kind": "code",
+      "method": "%0a7a517922911f9fd1148113c3a6e13d27be1c52",
+      "method_rva": 65109968,
+      "insn_rva": 65109977,
+      "insn": "mov rcx, qword ptr [rcx + 0x438]"
+    },
+    {
+      "name": "input",
+      "offset": 1088,
+      "type": "InputState",
+      "kind": "code",
+      "method": "%632846ba6b0060f36ef6a08983805bb6ba537152",
+      "method_rva": 65102880,
+      "insn_rva": 65103244,
+      "insn": "mov rcx, qword ptr [rbx + 0x440]"
+    },
+    {
+      "name": "metabolism",
+      "offset": 1216,
+      "type": "PlayerMetabolism",
+      "kind": "code",
+      "method": "%2dff86d71092c5b934f2637134d8080796829216",
+      "method_rva": 65166128,
+      "insn_rva": 65167184,
+      "insn": "mov rcx, qword ptr [rbx + 0x4c0]"
+    },
+    {
+      "name": "hidden_CapsuleCollider",
+      "offset": 1328,
+      "type": "CapsuleCollider",
+      "kind": "code",
+      "method": "%a53d56eefa3ed7b084f5ceb065f82efddba26b74",
+      "method_rva": 65152848,
+      "insn_rva": 65152890,
+      "insn": "cmp qword ptr [rsi + 0x530], 0"
+    },
+    {
+      "name": "playerRigidbody",
+      "offset": 1352,
+      "type": "Rigidbody",
+      "kind": "code",
+      "method": "%9d7c64d306d65975b571e91edb4d1e4f40c1665d",
+      "method_rva": 65100480,
+      "insn_rva": 65100555,
+      "insn": "mov rdi, qword ptr [rbx + 0x548]"
+    },
+    {
+      "name": "movement",
+      "offset": 1360,
+      "type": "PlayerWalkMovement",
+      "kind": "code",
+      "method": "%a15d2fe174cc1df3c887712a6132ecbaec19bf2d",
+      "method_rva": 65097504,
+      "insn_rva": 65097565,
+      "insn": "mov rsi, qword ptr [rdi + 0x550]"
+    },
+    {
+      "name": "clActiveItem",
+      "offset": 1424,
+      "type": "ItemId",
+      "kind": "code",
+      "method": "%4e1a82878afc4b0bd782bc6957239fd42f0c1a03",
+      "method_rva": 65110048,
+      "insn_rva": 65110423,
+      "insn": "movups xmm0, xmmword ptr [rbx + 0x590]"
+    },
+    {
+      "name": "inventory",
+      "offset": 1504,
+      "type": "PlayerInventory",
+      "kind": "code",
+      "method": "%fc0efab5c4690d365daecd3cce94a3e0002a2d93",
+      "method_rva": 65143920,
+      "insn_rva": 65143962,
+      "insn": "cmp qword ptr [rsi + 0x5e0], 0"
+    },
+    {
+      "name": "mounted",
+      "offset": 1512,
+      "type": "BaseMountable",
+      "kind": "code",
+      "method": "%76bd5da42efcf21b5df4a612479dfbd809c2ce5a",
+      "method_rva": 65098368,
+      "insn_rva": 65098410,
+      "insn": "lea rcx, [rbx + 0x5e8]"
+    },
+    {
+      "name": "fallDamageEffect",
+      "offset": 1744,
+      "type": "Effect",
+      "kind": "code",
+      "method": "%1b9b52a204928b5e65cb9a949bdd76dd27af4635",
+      "method_rva": 65279728,
+      "insn_rva": 65280283,
+      "insn": "mov r9, qword ptr [r10 + 0x6d0]"
+    },
+    {
+      "name": "drownEffect",
+      "offset": 1752,
+      "type": "Effect",
+      "kind": "code",
+      "method": "%c9b84c6b5b7e57cef2c3661f907a040f09adebe1",
+      "method_rva": 65770848,
+      "insn_rva": 65771746,
+      "insn": "mov rsi, qword ptr [rax + 0x6d8]"
+    },
+    {
+      "name": "playerFlags",
+      "offset": 1760,
+      "type": "PlayerFlags",
+      "kind": "code",
+      "method": "%6b5a6d4757e5fe49e698eb27e5c3cf0dbc69da8f",
+      "method_rva": 65099744,
+      "insn_rva": 65099816,
+      "insn": "test byte ptr [rbx + 0x6e0], 0x10"
+    },
+    {
+      "name": "_displayName",
+      "offset": 1784,
+      "type": "string",
+      "kind": "code",
+      "method": "%15136de954654baa3a722d479526e0fb0d96c7ed",
+      "method_rva": 65157040,
+      "insn_rva": 65157188,
+      "insn": "mov qword ptr [rbx + 0x6f8], r11"
+    },
+    {
+      "name": "voiceSpeaker",
+      "offset": 1808,
+      "type": "PlayerVoiceSpeaker",
+      "kind": "code",
+      "method": "%0fa2e4a751fa076c4e1d688b6368ebbfdb06292a",
+      "method_rva": 65516384,
+      "insn_rva": 65516673,
+      "insn": "mov qword ptr [rdi + 0x710], rax"
+    },
+    {
+      "name": "modifiers",
+      "offset": 1816,
+      "type": "PlayerModifiers",
+      "kind": "code",
+      "method": "%a52aa23baf70eedd824dbd501d04972b39542691",
+      "method_rva": 65148288,
+      "insn_rva": 65149778,
+      "insn": "cmp byte ptr [rcx + 0x718], 0"
+    },
+    {
+      "name": "userID",
+      "offset": 1832,
+      "type": "ulong",
+      "kind": "code",
+      "method": "%a0580847a109a1ab61156361e7aa75069b086f50",
+      "method_rva": 65098240,
+      "insn_rva": 65098244,
+      "insn": "movups xmm0, xmmword ptr [rcx + 0x728]"
+    },
+    {
+      "name": "playerModel",
+      "offset": 1864,
+      "type": "PlayerModel",
+      "kind": "code",
+      "method": "%ff2b2169a8b379dd96435d8674f0a9f282f7f47a",
+      "method_rva": 65112064,
+      "insn_rva": 65112494,
+      "insn": "mov rdi, qword ptr [rbx + 0x748]"
+    }
+  ],
+  "Projectile": [
+    {
+      "name": "initialVelocity",
+      "offset": 40,
+      "type": "Vector3",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 2,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "drag",
+      "offset": 52,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 3,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "gravityModifier",
+      "offset": 56,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 4,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "thickness",
+      "offset": 60,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 5,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "changeInitialOrientation",
+      "offset": 64,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 6,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "initialDistance",
+      "offset": 68,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 7,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "initialOrientation",
+      "offset": 72,
+      "type": "Vector3",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 8,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "remainInWorld",
+      "offset": 84,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 9,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "stickProbability",
+      "offset": 88,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 10,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "breakProbability",
+      "offset": 92,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 11,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "conditionLoss",
+      "offset": 96,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 12,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "ricochetChance",
+      "offset": 100,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 13,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "penetrationPower",
+      "offset": 104,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 14,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "canRefract",
+      "offset": 108,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 15,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "penetratesVehicles",
+      "offset": 109,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 16,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "waterIntegrityLoss",
+      "offset": 112,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 17,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "damageProperties",
+      "offset": 120,
+      "type": "DamageProperties",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 18,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "damageDistances",
+      "offset": 128,
+      "type": "MinMax",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 19,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "minMax",
+      "offset": 128,
+      "type": "MinMax",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 19,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "damageMultipliers",
+      "offset": 136,
+      "type": "MinMax",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 20,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "damageTypes",
+      "offset": 144,
+      "type": "List<DamageTypeEntry>",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 21,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "rendererToScale",
+      "offset": 152,
+      "type": "ScaleRenderer",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 22,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "scaleTrailRenderer",
+      "offset": 152,
+      "type": "ScaleTrailRenderer",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 22,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "firstPersonRenderer",
+      "offset": 160,
+      "type": "ScaleRenderer",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 23,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "scaleTransform",
+      "offset": 160,
+      "type": "ScaleTransform",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 23,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "createDecals",
+      "offset": 168,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 24,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "doHitEffects",
+      "offset": 169,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 25,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "flybySound",
+      "offset": 176,
+      "type": "SoundDefinition",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 26,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "soundDefinition",
+      "offset": 176,
+      "type": "SoundDefinition",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 26,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "flybySoundDistance",
+      "offset": 184,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 27,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "closeFlybySound",
+      "offset": 192,
+      "type": "SoundDefinition",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 28,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "closeFlybyDistance",
+      "offset": 200,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 29,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "tumbleSpeed",
+      "offset": 204,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 30,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "tumbleAxis",
+      "offset": 208,
+      "type": "Vector3",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 31,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "playDefaultHitEffects",
+      "offset": 220,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 32,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "clientEffectData",
+      "offset": 224,
+      "type": "CustomEffectData",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 33,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "customEffectData",
+      "offset": 224,
+      "type": "CustomEffectData",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 33,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "clientEffectPrefab",
+      "offset": 232,
+      "type": "GameObjectRef",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 34,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "gameObjectRef",
+      "offset": 232,
+      "type": "GameObjectRef",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 34,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "swimScale",
+      "offset": 240,
+      "type": "Vector3",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 35,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "swimSpeed",
+      "offset": 252,
+      "type": "Vector3",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 36,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "baseProjectile",
+      "offset": 272,
+      "type": "BaseProjectile",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 38,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "projectile",
+      "offset": 280,
+      "type": "Projectile",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 39,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "hidden_ccfe34b7cfa107117310af889ea8338a5bf48454",
+      "offset": 288,
+      "type": "HitTest",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 40,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "maxDistance",
+      "offset": 320,
+      "type": "float",
+      "kind": "code",
+      "method": "%34f23f3a6fcda67234b72e4262e1587198a176b7",
+      "method_rva": 101604512,
+      "insn_rva": 101604512,
+      "insn": "movss xmm0, dword ptr [rcx + 0x140]"
+    },
+    {
+      "name": "currentVelocity",
+      "offset": 356,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%5bc6b59dfb0da2fcb550c2f40db240fc6a35d533",
+      "method_rva": 101603216,
+      "insn_rva": 101603306,
+      "insn": "lea rdx, [rcx + 0x164]"
+    },
+    {
+      "name": "currentPosition",
+      "offset": 368,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%5bc6b59dfb0da2fcb550c2f40db240fc6a35d533",
+      "method_rva": 101603216,
+      "insn_rva": 101603370,
+      "insn": "movss xmm8, dword ptr [rcx + 0x170]"
+    },
+    {
+      "name": "traveledDistance",
+      "offset": 380,
+      "type": "float",
+      "kind": "code",
+      "method": "%591e32794de5f90460678fc10b2c93aa1a9b5239",
+      "method_rva": 101604848,
+      "insn_rva": 101605023,
+      "insn": "comiss xmm0, dword ptr [rbx + 0x17c]"
+    },
+    {
+      "name": "traveledTime",
+      "offset": 384,
+      "type": "float",
+      "kind": "code",
+      "method": "%34f23f3a6fcda67234b72e4262e1587198a176b7",
+      "method_rva": 101604512,
+      "insn_rva": 101604542,
+      "insn": "comiss xmm0, dword ptr [rcx + 0x180]"
+    },
+    {
+      "name": "sentPosition",
+      "offset": 392,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%591e32794de5f90460678fc10b2c93aa1a9b5239",
+      "method_rva": 101604848,
+      "insn_rva": 101604914,
+      "insn": "movss xmm0, dword ptr [rbx + 0x188]"
+    },
+    {
+      "name": "previousPosition",
+      "offset": 404,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%591e32794de5f90460678fc10b2c93aa1a9b5239",
+      "method_rva": 101604848,
+      "insn_rva": 101605257,
+      "insn": "movsd qword ptr [rbx + 0x194], xmm0"
+    },
+    {
+      "name": "previousVelocity",
+      "offset": 416,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%c4b0d33f1f7ab6785be047eca02297dc4b2f3f84",
+      "method_rva": 101605664,
+      "insn_rva": 101605894,
+      "insn": "movsd qword ptr [rbx + 0x1a0], xmm0"
+    },
+    {
+      "name": "previousTraveledTime",
+      "offset": 428,
+      "type": "float",
+      "kind": "code",
+      "method": "%c4b0d33f1f7ab6785be047eca02297dc4b2f3f84",
+      "method_rva": 101605664,
+      "insn_rva": 101605977,
+      "insn": "mov dword ptr [rbx + 0x1ac], eax"
+    },
+    {
+      "name": "mod",
+      "offset": 480,
+      "type": "ItemModProjectile",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 69,
+      "score": 34,
+      "total": 34
+    },
+    {
+      "name": "owner",
+      "offset": 496,
+      "type": "BasePlayer",
+      "kind": "table",
+      "table_rva": 247655680,
+      "index": 72,
+      "score": 34,
+      "total": 34
+    }
+  ],
+  "AttackEntity": [
+    {
+      "name": "deployDelay",
+      "offset": 752,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 0,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "repeatDelay",
+      "offset": 756,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 1,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "animationDelay",
+      "offset": 760,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 2,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "effectiveRange",
+      "offset": 764,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 3,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "npcDamageScale",
+      "offset": 768,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 4,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "attackLengthMin",
+      "offset": 772,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 5,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "attackLengthMax",
+      "offset": 776,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 6,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "attackSpacing",
+      "offset": 780,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 7,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "aiAimSwayOffset",
+      "offset": 784,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 8,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "aiAimCone",
+      "offset": 788,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 9,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "aiOnlyInRange",
+      "offset": 792,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 10,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "CloseRangeAddition",
+      "offset": 796,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 11,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "MediumRangeAddition",
+      "offset": 800,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 12,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "LongRangeAddition",
+      "offset": 804,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 13,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "CanUseAtMediumRange",
+      "offset": 808,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 14,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "CanUseAtLongRange",
+      "offset": 809,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 15,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "reloadSounds",
+      "offset": 816,
+      "type": "SoundDefinition[]",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 16,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "thirdPersonMeleeSound",
+      "offset": 824,
+      "type": "SoundDefinition",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 17,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "recoilCompDelayOverride",
+      "offset": 832,
+      "type": "float",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 18,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "wantsRecoilComp",
+      "offset": 836,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 19,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "showCrosshairOnTutorial",
+      "offset": 837,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 20,
+      "score": 21,
+      "total": 21
+    },
+    {
+      "name": "noHeadshots",
+      "offset": 838,
+      "type": "bool",
+      "kind": "table",
+      "table_rva": 247785168,
+      "index": 21,
+      "score": 21,
+      "total": 21
+    }
+  ],
+  "PlayerModel": [
+    {
+      "name": "Shoulders",
+      "offset": 152,
+      "type": "Transform[]",
+      "kind": "code",
+      "method": "%a8b028ad1eb008208d2ec721e74046d93300490e",
+      "method_rva": 86173632,
+      "insn_rva": 86174484,
+      "insn": "mov rcx, qword ptr [rdi + 0x98]"
+    },
+    {
+      "name": "AdditionalSpineBones",
+      "offset": 160,
+      "type": "Transform[]",
+      "kind": "code",
+      "method": "%aac711322f4322b374a9216239b9ecab90a3cafb",
+      "method_rva": 86139824,
+      "insn_rva": 86141662,
+      "insn": "mov rax, qword ptr [rbx + 0xa0]"
+    },
+    {
+      "name": "_multiMesh",
+      "offset": 184,
+      "type": "SkinnedMultiMesh",
+      "kind": "code",
+      "method": "%b9a6cc17f905c5d1f5340ad7ecafd4f4224a2550",
+      "method_rva": 86134096,
+      "insn_rva": 86134317,
+      "insn": "mov rcx, qword ptr [rax + 0xb8]"
+    },
+    {
+      "name": "TurnAimSmoothTime",
+      "offset": 208,
+      "type": "float",
+      "kind": "code",
+      "method": "%8a05b5ecc68441055360e3c2fabbc45c2722a806",
+      "method_rva": 86233632,
+      "insn_rva": 86234987,
+      "insn": "movss dword ptr [rdi + 0xd0], xmm7"
+    },
+    {
+      "name": "TurnHead",
+      "offset": 212,
+      "type": "TurnSegment",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86137497,
+      "insn": "mov dword ptr [rdi + 0xd4], 1"
+    },
+    {
+      "name": "TurnChest",
+      "offset": 228,
+      "type": "TurnSegment",
+      "kind": "code",
+      "method": "%b9a6cc17f905c5d1f5340ad7ecafd4f4224a2550",
+      "method_rva": 86134096,
+      "insn_rva": 86134357,
+      "insn": "cmp dword ptr [rcx + 0xe4], 0"
+    },
+    {
+      "name": "TurnSpine",
+      "offset": 244,
+      "type": "TurnSegment",
+      "kind": "code",
+      "method": "%7f8c4a527b676b00f321130fede6b58501191739",
+      "method_rva": 86330368,
+      "insn_rva": 86330486,
+      "insn": "cmp byte ptr [rax + 0xf4], 0"
+    },
+    {
+      "name": "TurnPelvis",
+      "offset": 260,
+      "type": "TurnSegment",
+      "kind": "code",
+      "method": "%e625967b0349a2329592238519f5156c81ccaee7",
+      "method_rva": 86178048,
+      "insn_rva": 86178368,
+      "insn": "movss xmm1, dword ptr [rdi + 0x104]"
+    },
+    {
+      "name": "TurnChestLowerShare",
+      "offset": 276,
+      "type": "float",
+      "kind": "code",
+      "method": "%361cd56f3763919ea7f3ed63256ae36ed5f53d02",
+      "method_rva": 86159616,
+      "insn_rva": 86159791,
+      "insn": "mov dword ptr [rbx + 0x114], eax"
+    },
+    {
+      "name": "TurnSpineLowerShare",
+      "offset": 280,
+      "type": "float",
+      "kind": "code",
+      "method": "%e625967b0349a2329592238519f5156c81ccaee7",
+      "method_rva": 86178048,
+      "insn_rva": 86178831,
+      "insn": "movss xmm1, dword ptr [rdi + 0x118]"
+    },
+    {
+      "name": "TurnHeadLockAngle",
+      "offset": 284,
+      "type": "float",
+      "kind": "code",
+      "method": "%478736342afffe30da6980e7f0b1eeed20130c74",
+      "method_rva": 86185568,
+      "insn_rva": 86185697,
+      "insn": "movss xmm1, dword ptr [rbx + 0x11c]"
+    },
+    {
+      "name": "TurnHeadSmoothTime",
+      "offset": 288,
+      "type": "float",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164369,
+      "insn": "movss xmm2, dword ptr [rdi + 0x120]"
+    },
+    {
+      "name": "TurnHeadMaxSpeed",
+      "offset": 292,
+      "type": "float",
+      "kind": "code",
+      "method": "%478736342afffe30da6980e7f0b1eeed20130c74",
+      "method_rva": 86185568,
+      "insn_rva": 86185739,
+      "insn": "movss xmm0, dword ptr [rbx + 0x124]"
+    },
+    {
+      "name": "TurnHeadAimFadeSpeed",
+      "offset": 296,
+      "type": "float",
+      "kind": "code",
+      "method": "%95ad33324cc8b7221dfaf932e298fe324ccd37e5",
+      "method_rva": 86203328,
+      "insn_rva": 86203457,
+      "insn": "mov dword ptr [rbx + 0x128], eax"
+    },
+    {
+      "name": "TurnClips",
+      "offset": 304,
+      "type": "TurnClipSet",
+      "kind": "code",
+      "method": "%d801592c36e1adff648936e17797f30f4a928f71",
+      "method_rva": 86179552,
+      "insn_rva": 86180040,
+      "insn": "movzx eax, byte ptr [r8 + 0x130]"
+    },
+    {
+      "name": "TurnSpeedByBacklog",
+      "offset": 312,
+      "type": "AnimationCurve",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86138180,
+      "insn": "mov byte ptr [rdi + 0x138], al"
+    },
+    {
+      "name": "TurnMoveThreshold",
+      "offset": 320,
+      "type": "float",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86138090,
+      "insn": "movsd qword ptr [rdi + 0x140], xmm0"
+    },
+    {
+      "name": "TurnSuppressProceduralLegs",
+      "offset": 324,
+      "type": "bool",
+      "kind": "code",
+      "method": "%cd6f5b4af4357192bb62746ecb3b602240acec9c",
+      "method_rva": 86181616,
+      "insn_rva": 86181616,
+      "insn": "mov byte ptr [rcx + 0x144], dl"
+    },
+    {
+      "name": "TurnLegBlendTime",
+      "offset": 328,
+      "type": "float",
+      "kind": "code",
+      "method": "%2b86f703c247efce857480adc51de9bccc370ffd",
+      "method_rva": 86135936,
+      "insn_rva": 86136215,
+      "insn": "movss xmm1, dword ptr [rbx + 0x148]"
+    },
+    {
+      "name": "TurnPelvisEnabled",
+      "offset": 332,
+      "type": "bool",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86138762,
+      "insn": "movsd qword ptr [rdi + 0x14c], xmm0"
+    },
+    {
+      "name": "TurnPelvisFootPinWeight",
+      "offset": 336,
+      "type": "float",
+      "kind": "code",
+      "method": "%fb0f17b1ae3a5b8c4a47890df829f788ebddfc1e",
+      "method_rva": 86334304,
+      "insn_rva": 86334673,
+      "insn": "maxss xmm0, dword ptr [rax + 0x150]"
+    },
+    {
+      "name": "TurnArmFadeSpeed",
+      "offset": 340,
+      "type": "float",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86138770,
+      "insn": "mov dword ptr [rdi + 0x154], eax"
+    },
+    {
+      "name": "TurnArmFadeWeight",
+      "offset": 344,
+      "type": "float",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86138797,
+      "insn": "mov byte ptr [rdi + 0x158], al"
+    },
+    {
+      "name": "collision",
+      "offset": 528,
+      "type": "BoxCollider",
+      "kind": "code",
+      "method": "%9b19d85a0465c73b928837fd2522673af9f28c58",
+      "method_rva": 86162144,
+      "insn_rva": 86162270,
+      "insn": "mov rcx, qword ptr [rdi + 0x210]"
+    },
+    {
+      "name": "censorshipCube",
+      "offset": 536,
+      "type": "GameObject",
+      "kind": "code",
+      "method": "%b9a6cc17f905c5d1f5340ad7ecafd4f4224a2550",
+      "method_rva": 86134096,
+      "insn_rva": 86135171,
+      "insn": "mov rdi, qword ptr [rbx + 0x218]"
+    },
+    {
+      "name": "censorshipCubeBreasts",
+      "offset": 544,
+      "type": "GameObject",
+      "kind": "code",
+      "method": "%b9a6cc17f905c5d1f5340ad7ecafd4f4224a2550",
+      "method_rva": 86134096,
+      "insn_rva": 86135376,
+      "insn": "mov rdi, qword ptr [rbx + 0x220]"
+    },
+    {
+      "name": "jawBone",
+      "offset": 552,
+      "type": "GameObject",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164132,
+      "insn": "mov rbx, qword ptr [rdi + 0x228]"
+    },
+    {
+      "name": "neckBone",
+      "offset": 560,
+      "type": "GameObject",
+      "kind": "code",
+      "method": "%7aaf82e21423370f4cae25a9a8d01afd881e0b1c",
+      "method_rva": 86289120,
+      "insn_rva": 86289126,
+      "insn": "mov rax, qword ptr [rcx + 0x230]"
+    },
+    {
+      "name": "headBone",
+      "offset": 568,
+      "type": "GameObject",
+      "kind": "code",
+      "method": "%b9a6cc17f905c5d1f5340ad7ecafd4f4224a2550",
+      "method_rva": 86134096,
+      "insn_rva": 86135334,
+      "insn": "mov rdi, qword ptr [rbx + 0x238]"
+    },
+    {
+      "name": "leftEye",
+      "offset": 576,
+      "type": "GameObject",
+      "kind": "code",
+      "method": "%86a87fb8a62260b5a67be40dfb322a567d681548",
+      "method_rva": 86345872,
+      "insn_rva": 86346790,
+      "insn": "mov rcx, qword ptr [rbx + 0x240]"
+    },
+    {
+      "name": "rightEye",
+      "offset": 584,
+      "type": "GameObject",
+      "kind": "code",
+      "method": "%86a87fb8a62260b5a67be40dfb322a567d681548",
+      "method_rva": 86345872,
+      "insn_rva": 86346939,
+      "insn": "mov rcx, qword ptr [rbx + 0x248]"
+    },
+    {
+      "name": "eyeController",
+      "offset": 592,
+      "type": "EyeController",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86165166,
+      "insn": "mov rbx, qword ptr [rdi + 0x250]"
+    },
+    {
+      "name": "blinkController",
+      "offset": 600,
+      "type": "EyeBlink",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86165378,
+      "insn": "mov rsi, qword ptr [rdi + 0x258]"
+    },
+    {
+      "name": "SpineBones",
+      "offset": 608,
+      "type": "Transform[]",
+      "kind": "code",
+      "method": "%aac711322f4322b374a9216239b9ecab90a3cafb",
+      "method_rva": 86139824,
+      "insn_rva": 86140928,
+      "insn": "mov rsi, qword ptr [rbx + 0x260]"
+    },
+    {
+      "name": "leftFootBone",
+      "offset": 616,
+      "type": "Transform",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86138347,
+      "insn": "mov rdx, qword ptr [rbx + 0x268]"
+    },
+    {
+      "name": "rightFootBone",
+      "offset": 624,
+      "type": "Transform",
+      "kind": "code",
+      "method": "%b38e445a4761c66277c1ffec13aea553b5ead312",
+      "method_rva": 86166000,
+      "insn_rva": 86166213,
+      "insn": "mov rcx, qword ptr [rbx + 0x270]"
+    },
+    {
+      "name": "leftHandPropBone",
+      "offset": 632,
+      "type": "Transform",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86138662,
+      "insn": "mov rdx, qword ptr [rbx + 0x278]"
+    },
+    {
+      "name": "rightHandPropBone",
+      "offset": 640,
+      "type": "Transform",
+      "kind": "code",
+      "method": "%69ad98c783a3c86b52ab7eacd9916e36e12b13c8",
+      "method_rva": 86258528,
+      "insn_rva": 86258973,
+      "insn": "mov rdx, qword ptr [rsi + 0x280]"
+    },
+    {
+      "name": "rightHandTarget",
+      "offset": 648,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%4432a59f33cd344282822977fc223ffe6c2325c8",
+      "method_rva": 86215632,
+      "insn_rva": 86216035,
+      "insn": "movss xmm6, dword ptr [rbx + 0x288]"
+    },
+    {
+      "name": "leftClavicleBone",
+      "offset": 664,
+      "type": "Transform",
+      "kind": "code",
+      "method": "%e108c3d14dcf7d74bfaefda34c9db56f075388a9",
+      "method_rva": 86273888,
+      "insn_rva": 86274303,
+      "insn": "mov rdi, qword ptr [rbx + 0x298]"
+    },
+    {
+      "name": "isPreview",
+      "offset": 672,
+      "type": "bool",
+      "kind": "code",
+      "method": "%b9a6cc17f905c5d1f5340ad7ecafd4f4224a2550",
+      "method_rva": 86134096,
+      "insn_rva": 86134324,
+      "insn": "cmp dword ptr [rcx + 0x2a0], 1"
+    },
+    {
+      "name": "leftHandTargetPosition",
+      "offset": 676,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%b8fe65ae8a8a63b88c63e2abf171c7f3173a8ce1",
+      "method_rva": 86231184,
+      "insn_rva": 86231835,
+      "insn": "movss xmm0, dword ptr [rbx + 0x2a4]"
+    },
+    {
+      "name": "leftHandTargetRotation",
+      "offset": 688,
+      "type": "Quaternion",
+      "kind": "code",
+      "method": "%f24e473409793b70a1c718988004b0ad58b0e85d",
+      "method_rva": 86136608,
+      "insn_rva": 86136611,
+      "insn": "movups xmmword ptr [rcx + 0x2b0], xmm0"
+    },
+    {
+      "name": "rightHandTargetPosition",
+      "offset": 704,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%e715b3715aaa75712bc8475d875fd23f1c872403",
+      "method_rva": 86167936,
+      "insn_rva": 86168101,
+      "insn": "movsd qword ptr [rsi + 0x2c0], xmm0"
+    },
+    {
+      "name": "rightHandTargetRotation",
+      "offset": 716,
+      "type": "Quaternion",
+      "kind": "code",
+      "method": "%e715b3715aaa75712bc8475d875fd23f1c872403",
+      "method_rva": 86167936,
+      "insn_rva": 86168120,
+      "insn": "movups xmmword ptr [rsi + 0x2cc], xmm0"
+    },
+    {
+      "name": "leftUlnaTwistBone",
+      "offset": 736,
+      "type": "Transform",
+      "kind": "code",
+      "method": "%b44112f75a5d060db5fac7ed595810e1e342fd63",
+      "method_rva": 86180832,
+      "insn_rva": 86180967,
+      "insn": "mov rsi, qword ptr [rbx + 0x2e0]"
+    },
+    {
+      "name": "rightUlnaTwistBone",
+      "offset": 744,
+      "type": "Transform",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86137507,
+      "insn": "mov rdx, qword ptr [rbx + 0x2e8]"
+    },
+    {
+      "name": "leftHandTwistRelaxWeight",
+      "offset": 752,
+      "type": "float",
+      "kind": "code",
+      "method": "%361cd56f3763919ea7f3ed63256ae36ed5f53d02",
+      "method_rva": 86159616,
+      "insn_rva": 86159652,
+      "insn": "movss xmm2, dword ptr [rbx + 0x2f0]"
+    },
+    {
+      "name": "rightHandTwistRelaxWeight",
+      "offset": 756,
+      "type": "float",
+      "kind": "code",
+      "method": "%361cd56f3763919ea7f3ed63256ae36ed5f53d02",
+      "method_rva": 86159616,
+      "insn_rva": 86159728,
+      "insn": "movss xmm7, dword ptr [rbx + 0x2f4]"
+    },
+    {
+      "name": "TwistBones",
+      "offset": 760,
+      "type": "PlayerTwistBoneSetup[]",
+      "kind": "code",
+      "method": "%5a6c64eec6b17ad384d60b166de8dee2fc0303bb",
+      "method_rva": 86321872,
+      "insn_rva": 86322684,
+      "insn": "call qword ptr [rax + 0x2f8]"
+    },
+    {
+      "name": "steeringTargetDegrees",
+      "offset": 768,
+      "type": "float",
+      "kind": "code",
+      "method": "%b44112f75a5d060db5fac7ed595810e1e342fd63",
+      "method_rva": 86180832,
+      "insn_rva": 86180948,
+      "insn": "movss dword ptr [rbx + 0x300], xmm8"
+    },
+    {
+      "name": "playerBoatSteeringTargetDegrees",
+      "offset": 772,
+      "type": "float",
+      "kind": "code",
+      "method": "%d0622d23ae9880c80dfc4ac634d2a077fd880c0d",
+      "method_rva": 86185856,
+      "insn_rva": 86188276,
+      "insn": "movss xmm0, dword ptr [rbx + 0x304]"
+    },
+    {
+      "name": "rightFootTargetPosition",
+      "offset": 776,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%486bfe7015fae557ffc1279c0ff60239e2ce8cdc",
+      "method_rva": 86278336,
+      "insn_rva": 86278501,
+      "insn": "movsd qword ptr [rsi + 0x308], xmm0"
+    },
+    {
+      "name": "rightFootTargetRotation",
+      "offset": 788,
+      "type": "Quaternion",
+      "kind": "code",
+      "method": "%fbb1f84ec2b74c98996ad5c2af586f698aebb589",
+      "method_rva": 86203648,
+      "insn_rva": 86203735,
+      "insn": "lea rdx, [rdi + 0x314]"
+    },
+    {
+      "name": "leftFootTargetPosition",
+      "offset": 804,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%b8fe65ae8a8a63b88c63e2abf171c7f3173a8ce1",
+      "method_rva": 86231184,
+      "insn_rva": 86232455,
+      "insn": "movss xmm7, dword ptr [rbx + 0x324]"
+    },
+    {
+      "name": "leftFootTargetRotation",
+      "offset": 816,
+      "type": "Quaternion",
+      "kind": "code",
+      "method": "%1e71e09b42f8bda8c5fd2eea214694a24efa6bc4",
+      "method_rva": 86203616,
+      "insn_rva": 86203616,
+      "insn": "movups xmm0, xmmword ptr [rdx + 0x330]"
+    },
+    {
+      "name": "legsAnimator",
+      "offset": 832,
+      "type": "LegsAnimator",
+      "kind": "code",
+      "method": "%2b86f703c247efce857480adc51de9bccc370ffd",
+      "method_rva": 86135936,
+      "insn_rva": 86135989,
+      "insn": "mov rdi, qword ptr [rbx + 0x340]"
+    },
+    {
+      "name": "upperBodyMask",
+      "offset": 840,
+      "type": "AvatarMask",
+      "kind": "code",
+      "method": "%4bd3eefaeedc5bed1fd774367ffd549a3761d681",
+      "method_rva": 86162048,
+      "insn_rva": 86162093,
+      "insn": "mov rax, qword ptr [rcx + r10*8 + 0x348]"
+    },
+    {
+      "name": "fullMask",
+      "offset": 848,
+      "type": "AvatarMask",
+      "kind": "code",
+      "method": "%2cd2ac9efb63548e0f0ba3319d70fead674c7856",
+      "method_rva": 86224880,
+      "insn_rva": 86225400,
+      "insn": "mov rsi, qword ptr [rdi + 0x350]"
+    },
+    {
+      "name": "CinematicAnimationController",
+      "offset": 856,
+      "type": "RuntimeAnimatorController",
+      "kind": "code",
+      "method": "%d342dc751e2fa20b98a7bbb3c697f82bd3bb6b7a",
+      "method_rva": 86166704,
+      "insn_rva": 86167181,
+      "insn": "mov qword ptr [rbx + 0x358], 0"
+    },
+    {
+      "name": "DefaultAvatar",
+      "offset": 864,
+      "type": "Avatar",
+      "kind": "code",
+      "method": "%f574271c4e729485776e569e42c56e7151541a3d",
+      "method_rva": 86338928,
+      "insn_rva": 86339192,
+      "insn": "mov rdx, qword ptr [rbx + 0x360]"
+    },
+    {
+      "name": "CinematicAvatar",
+      "offset": 872,
+      "type": "Avatar",
+      "kind": "code",
+      "method": "%76045fbb16ea17e56e9eae789935558284c98741",
+      "method_rva": 86426704,
+      "insn_rva": 86427057,
+      "insn": "cmp edi, dword ptr [rax + 0x368]"
+    },
+    {
+      "name": "DefaultHoldType",
+      "offset": 880,
+      "type": "RuntimeAnimatorController",
+      "kind": "code",
+      "method": "%4fbac7e6807fbead20ca82d4659aee339f3435e2",
+      "method_rva": 86198960,
+      "insn_rva": 86199767,
+      "insn": "mov rsi, qword ptr [rdi + 0x370]"
+    },
+    {
+      "name": "SleepGesture",
+      "offset": 888,
+      "type": "RuntimeAnimatorController",
+      "kind": "code",
+      "method": "%45c38936f7ce5037c084ec0687885dc0463d8849",
+      "method_rva": 86201856,
+      "insn_rva": 86201940,
+      "insn": "mov rdi, qword ptr [rbx + 0x378]"
+    },
+    {
+      "name": "CrawlToIncapacitatedGesture",
+      "offset": 896,
+      "type": "RuntimeAnimatorController",
+      "kind": "code",
+      "method": "%ac83f0ceef263360205f17348c9b0c2c697857a6",
+      "method_rva": 86528704,
+      "insn_rva": 86528964,
+      "insn": "mov rsi, qword ptr [rbx + 0x380]"
+    },
+    {
+      "name": "CrawlToIncapacitatedGestureHandcuff",
+      "offset": 904,
+      "type": "RuntimeAnimatorController",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164049,
+      "insn": "cmp dword ptr [rax + 0x388], 1"
+    },
+    {
+      "name": "StandToIncapacitatedGesture",
+      "offset": 912,
+      "type": "RuntimeAnimatorController",
+      "kind": "code",
+      "method": "%45c38936f7ce5037c084ec0687885dc0463d8849",
+      "method_rva": 86201856,
+      "insn_rva": 86202293,
+      "insn": "lea rcx, [rbx + 0x390]"
+    },
+    {
+      "name": "MaleSkin",
+      "offset": 928,
+      "type": "SkinSetCollection",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164350,
+      "insn": "mov rcx, qword ptr [rdi + 0x3a0]"
+    },
+    {
+      "name": "FemaleSkin",
+      "offset": 936,
+      "type": "SkinSetCollection",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164341,
+      "insn": "mov rcx, qword ptr [rdi + 0x3a8]"
+    },
+    {
+      "name": "MannequinSkin",
+      "offset": 944,
+      "type": "SkinSetCollection",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164323,
+      "insn": "mov rcx, qword ptr [rdi + 0x3b0]"
+    },
+    {
+      "name": "subsurfaceProfile",
+      "offset": 952,
+      "type": "SubsurfaceProfile",
+      "kind": "code",
+      "method": "%aed111aba0ff0bdd0285c6eabaeb5d70928c682e",
+      "method_rva": 86306752,
+      "insn_rva": 86306971,
+      "insn": "mov rdi, qword ptr [rsi + 0x3b8]"
+    },
+    {
+      "name": "voiceVolume",
+      "offset": 960,
+      "type": "float",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164294,
+      "insn": "movss xmm1, dword ptr [rdi + 0x3c0]"
+    },
+    {
+      "name": "skinColor",
+      "offset": 964,
+      "type": "float",
+      "kind": "code",
+      "method": "%63de193c938e11b71106e3d50aec29845970a1d0",
+      "method_rva": 86203488,
+      "insn_rva": 86203571,
+      "insn": "lea r8, [rcx + 0x3c4]"
+    },
+    {
+      "name": "skinNumber",
+      "offset": 968,
+      "type": "float",
+      "kind": "code",
+      "method": "%9ed9caf42b8ce876f09dbf7fad6df6f8e0a1d33d",
+      "method_rva": 86188784,
+      "insn_rva": 86188878,
+      "insn": "mov dword ptr [rbx + 0x3c8], 0x80000000"
+    },
+    {
+      "name": "meshNumber",
+      "offset": 972,
+      "type": "float",
+      "kind": "code",
+      "method": "%a8b028ad1eb008208d2ec721e74046d93300490e",
+      "method_rva": 86173632,
+      "insn_rva": 86173937,
+      "insn": "movss xmm1, dword ptr [rbx + 0x3cc]"
+    },
+    {
+      "name": "meshSubNumber",
+      "offset": 976,
+      "type": "float",
+      "kind": "code",
+      "method": "%a8b028ad1eb008208d2ec721e74046d93300490e",
+      "method_rva": 86173632,
+      "insn_rva": 86173926,
+      "insn": "movss xmm2, dword ptr [rbx + 0x3d0]"
+    },
+    {
+      "name": "hairNumber",
+      "offset": 980,
+      "type": "float",
+      "kind": "code",
+      "method": "%a8b028ad1eb008208d2ec721e74046d93300490e",
+      "method_rva": 86173632,
+      "insn_rva": 86173996,
+      "insn": "mulss xmm0, dword ptr [rbx + 0x3d4]"
+    },
+    {
+      "name": "dyeNumber",
+      "offset": 984,
+      "type": "float",
+      "kind": "code",
+      "method": "%14388a86a77bc00ee72f11dc79eb798b416e9675",
+      "method_rva": 86181584,
+      "insn_rva": 86181598,
+      "insn": "mov dword ptr [rcx + 0x3d8], 0x3f800000"
+    },
+    {
+      "name": "skinType",
+      "offset": 988,
+      "type": "int",
+      "kind": "code",
+      "method": "%b9a6cc17f905c5d1f5340ad7ecafd4f4224a2550",
+      "method_rva": 86134096,
+      "insn_rva": 86135124,
+      "insn": "cmp dword ptr [rbx + 0x3dc], 1"
+    },
+    {
+      "name": "mouthFlapPosRange",
+      "offset": 992,
+      "type": "float",
+      "kind": "code",
+      "method": "%5f060f742f49a77872b1059899d739dc4d8a1213",
+      "method_rva": 86301984,
+      "insn_rva": 86302070,
+      "insn": "movss xmm1, dword ptr [rbx + 0x3e0]"
+    },
+    {
+      "name": "mouthFlapRotRange",
+      "offset": 996,
+      "type": "float",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164528,
+      "insn": "movss xmm6, dword ptr [rdi + 0x3e4]"
+    },
+    {
+      "name": "mouthSidePosRange",
+      "offset": 1000,
+      "type": "float",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164467,
+      "insn": "mulss xmm8, dword ptr [rdi + 0x3e8]"
+    },
+    {
+      "name": "mouthSideFrequency",
+      "offset": 1004,
+      "type": "float",
+      "kind": "code",
+      "method": "%e218f0d50f85634a862a4eb302e240d361acafa6",
+      "method_rva": 86163392,
+      "insn_rva": 86164441,
+      "insn": "mulss xmm0, dword ptr [rdi + 0x3ec]"
+    },
+    {
+      "name": "ArmMotionWeight",
+      "offset": 1008,
+      "type": "float",
+      "kind": "code",
+      "method": "%d0622d23ae9880c80dfc4ac634d2a077fd880c0d",
+      "method_rva": 86185856,
+      "insn_rva": 86186145,
+      "insn": "movss dword ptr [rbx + 0x3f0], xmm0"
+    },
+    {
+      "name": "ArmGravity",
+      "offset": 1012,
+      "type": "float",
+      "kind": "code",
+      "method": "%b8fe65ae8a8a63b88c63e2abf171c7f3173a8ce1",
+      "method_rva": 86231184,
+      "insn_rva": 86232338,
+      "insn": "movss xmm6, dword ptr [rbx + 0x3f4]"
+    },
+    {
+      "name": "ArmGravityByPitch",
+      "offset": 1016,
+      "type": "AnimationCurve",
+      "kind": "code",
+      "method": "%b8fe65ae8a8a63b88c63e2abf171c7f3173a8ce1",
+      "method_rva": 86231184,
+      "insn_rva": 86232309,
+      "insn": "mov rcx, qword ptr [rbx + 0x3f8]"
+    },
+    {
+      "name": "ArmStiffness",
+      "offset": 1024,
+      "type": "float",
+      "kind": "code",
+      "method": "%bfbc6d3832a082e8f15568b5ea387f2bd13b714a",
+      "method_rva": 86173312,
+      "insn_rva": 86173452,
+      "insn": "movss xmm6, dword ptr [rbx + 0x400]"
+    },
+    {
+      "name": "ArmDamping",
+      "offset": 1028,
+      "type": "float",
+      "kind": "code",
+      "method": "%03e0804535f2de8a7f80f2fb98247938bc449ea5",
+      "method_rva": 86356624,
+      "insn_rva": 86356893,
+      "insn": "movss xmm1, dword ptr [rbx + 0x404]"
+    },
+    {
+      "name": "ArmMotionSpeedLimit",
+      "offset": 1032,
+      "type": "float",
+      "kind": "code",
+      "method": "%b8fe65ae8a8a63b88c63e2abf171c7f3173a8ce1",
+      "method_rva": 86231184,
+      "insn_rva": 86231879,
+      "insn": "movss xmm1, dword ptr [rbx + 0x408]"
+    },
+    {
+      "name": "ArmFlexAngle",
+      "offset": 1036,
+      "type": "float",
+      "kind": "code",
+      "method": "%9ed9caf42b8ce876f09dbf7fad6df6f8e0a1d33d",
+      "method_rva": 86188784,
+      "insn_rva": 86188911,
+      "insn": "mov dword ptr [rbx + 0x40c], edi"
+    },
+    {
+      "name": "ArmFlexByPitch",
+      "offset": 1040,
+      "type": "AnimationCurve",
+      "kind": "code",
+      "method": "%3216a2395f8f594e338e428f4eb29d8f48d720ab",
+      "method_rva": 86942656,
+      "insn_rva": 86943696,
+      "insn": "mov rcx, qword ptr [rbx + 0x410]"
+    },
+    {
+      "name": "ArmSpinFadeStart",
+      "offset": 1048,
+      "type": "float",
+      "kind": "code",
+      "method": "%bfbc6d3832a082e8f15568b5ea387f2bd13b714a",
+      "method_rva": 86173312,
+      "insn_rva": 86173391,
+      "insn": "movss xmm1, dword ptr [rdx + 0x418]"
+    },
+    {
+      "name": "ArmSpinFadeEnd",
+      "offset": 1052,
+      "type": "float",
+      "kind": "code",
+      "method": "%b8fe65ae8a8a63b88c63e2abf171c7f3173a8ce1",
+      "method_rva": 86231184,
+      "insn_rva": 86231927,
+      "insn": "movss xmm0, dword ptr [rbx + 0x41c]"
+    },
+    {
+      "name": "SpineLookUpLimit",
+      "offset": 1056,
+      "type": "float",
+      "kind": "code",
+      "method": "%e2f480589c621e1f53eb07ba5cf54dcac169c266",
+      "method_rva": 86190416,
+      "insn_rva": 86190595,
+      "insn": "lea r8, [rbx + 0x420]"
+    },
+    {
+      "name": "SpineTwistClamp",
+      "offset": 1060,
+      "type": "float",
+      "kind": "code",
+      "method": "%bfbc6d3832a082e8f15568b5ea387f2bd13b714a",
+      "method_rva": 86173312,
+      "insn_rva": 86173380,
+      "insn": "movss xmm2, dword ptr [rdx + 0x424]"
+    },
+    {
+      "name": "SpineHeadLookWeightVertical",
+      "offset": 1064,
+      "type": "float",
+      "kind": "code",
+      "method": "%049f7dd52c6ee86b77809e840e29670c4f55470a",
+      "method_rva": 86283184,
+      "insn_rva": 86283327,
+      "insn": "lea rcx, [rsi + 0x428]"
+    },
+    {
+      "name": "HeadYawLimit",
+      "offset": 1068,
+      "type": "float",
+      "kind": "code",
+      "method": "%4ed667f04b1a683cdc0298d2882c10392b8fdf00",
+      "method_rva": 86339328,
+      "insn_rva": 86339514,
+      "insn": "movss xmm3, dword ptr [rbx + 0x42c]"
+    },
+    {
+      "name": "SpineLowerFollow",
+      "offset": 1072,
+      "type": "float",
+      "kind": "code",
+      "method": "%657ba09720f77663a56db22d8a45fb5a848006be",
+      "method_rva": 86191552,
+      "insn_rva": 86191690,
+      "insn": "lea r10, [rdi + 0x430]"
+    },
+    {
+      "name": "SpineFollowSmoothSpeed",
+      "offset": 1076,
+      "type": "float",
+      "kind": "code",
+      "method": "%1724c768f38eb0c77713618c0c271924e2c3df15",
+      "method_rva": 86266544,
+      "insn_rva": 86267182,
+      "insn": "movss xmm1, dword ptr [rbx + 0x434]"
+    },
+    {
+      "name": "movementSounds",
+      "offset": 1080,
+      "type": "MovementSounds",
+      "kind": "code",
+      "method": "%a0ad5562d9d8954896a95e28b02ff5b327f6071f",
+      "method_rva": 86226064,
+      "insn_rva": 86226246,
+      "insn": "mov rdi, qword ptr [rbx + 0x438]"
+    },
+    {
+      "name": "showSash",
+      "offset": 1088,
+      "type": "bool",
+      "kind": "code",
+      "method": "%253a3df102407b299d9a406aeb0f8de153c46bb9",
+      "method_rva": 86222992,
+      "insn_rva": 86222992,
+      "insn": "movzx eax, byte ptr [rcx + 0x440]"
+    },
+    {
+      "name": "tempPoseType",
+      "offset": 1092,
+      "type": "int",
+      "kind": "code",
+      "method": "%4fbac7e6807fbead20ca82d4659aee339f3435e2",
+      "method_rva": 86198960,
+      "insn_rva": 86199983,
+      "insn": "cmp dword ptr [rdi + 0x444], 1"
+    },
+    {
+      "name": "underwearSkin",
+      "offset": 1096,
+      "type": "uint",
+      "kind": "code",
+      "method": "%e28b4b2f9f0329437216202b1161d4de65ef42b8",
+      "method_rva": 86239952,
+      "insn_rva": 86240113,
+      "insn": "mov r14d, dword ptr [rsi + 0x448]"
+    },
+    {
+      "name": "position",
+      "offset": 1160,
+      "type": "Vector3",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86138074,
+      "insn": "movsd xmm0, qword ptr [rbx + 0x488]"
+    },
+    {
+      "name": "animator",
+      "offset": 1656,
+      "type": "Animator",
+      "kind": "code",
+      "method": "%0f42117493a01bb646192e67a8517ab4ecb64fac",
+      "method_rva": 86221552,
+      "insn_rva": 86221622,
+      "insn": "mov rdi, qword ptr [rbx + 0x678]"
+    },
+    {
+      "name": "modelState",
+      "offset": 1752,
+      "type": "ModelState",
+      "kind": "code",
+      "method": "%4ac60e94f34e2b1ef6237369d1617c562291c937",
+      "method_rva": 86136912,
+      "insn_rva": 86137085,
+      "insn": "cmp qword ptr [rbx + 0x6d8], 0"
+    }
+  ]
+}

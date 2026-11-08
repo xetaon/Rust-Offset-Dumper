@@ -1,0 +1,56 @@
+{
+  "build": "26140533",
+  "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Rust\\GameAssembly.dll",
+  "fields": {
+    "PlayerInventory.loot": {
+      "offset": "0x48",
+      "type": "PlayerLoot"
+    },
+    "PlayerLoot.entitySource": {
+      "offset": "0x28",
+      "type": "BaseEntity"
+    },
+    "LootAllButton.inventoryGrid": {
+      "offset": "0x28",
+      "type": "Rust.UI.InventoryGrid"
+    }
+  },
+  "methods": {
+    "LootAllButton.OnClicked": {
+      "rva": "0x463DB40",
+      "token": "0x0602a4dc",
+      "args": [
+        "this"
+      ],
+      "returns": "void"
+    },
+    "LootAllButton.Awake": {
+      "rva": "0x463DDD0",
+      "token": "0x0602a4de",
+      "note": "plaintext name; builds the [this+0x20] predicate"
+    },
+    "LootAllButton..ctor": {
+      "rva": "0x9CB140",
+      "token": "0x0602a4dd"
+    },
+    "ItemIcon.TryToMove (parent, unconfirmed name)": {
+      "rva": "0x1834DB0",
+      "note": "called by OnClicked per grid item; blob 0x1834DB0..0x1835308"
+    },
+    "ItemIcon.<TryToMove>b__0 closure": {
+      "rva": "0x185C650",
+      "note": "from the original dump"
+    }
+  },
+  "evidence": {
+    "OnClicked_grid_read": "0x463DBA6  mov rbx, qword ptr [rsi + 0x28]",
+    "OnClicked_item_move_call": "0x463DD32  call 0x1834DB0",
+    "PlayerInventory.loot": "metadata field #4 'loot'; reference names_extra.txt:805 + offsets.json (offset 72)",
+    "PlayerLoot.entitySource": "metadata field #0 'entitySource'; reference names_extra.txt:810 (+0x28)",
+    "LootAllButton.fields": "metadata: field #0 hashed, field #1 'inventoryGrid' -> +0x20 / +0x28",
+    "LootAllButton.methods": "metadata type 6156 token 0x0200180d: OnClicked, .ctor, Awake only",
+    "log_proof": "[LOOT] poll onClicked = module base + 0x463DB40 but btn=0 on all 11 polls"
+  },
+  "image_base": "0x180000000",
+  "dll_size": 304039424
+}

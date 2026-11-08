@@ -1,0 +1,15 @@
+# %hash = class name evidence
+%00486f673955d1a89000f7d181c77f391f433868 = PlayerProjectileAttack
+%10a641089f4c751c80dc05c867c4d83f3d0b36bc = ConVar_Graphics_Static
+%13af5ffdf172815ce814a8208eba384e8b491969 = PlayerTick
+%2659c1e9243de1631a80a797c9f33529c4d56a41 = ProjectileShoot
+%552765ca67ec0b2d8b637fedf793b40fa7eefe07 = LocalPlayer
+%65fc2df65e6bdeb8c0623f9c61669b260804d999 = Attack
+%7e25fe33472b4f1230b3f6965e7753edbbaec270 = BaseNetworkable
+%83fe3cded6715b49a7c4c75dd6232cacb8d099a8 = ConVar_Client_Static
+%ccfe34b7cfa107117310af889ea8338a5bf48454 = HitTest
+%cd6ecc3b2bf61bfc82e07ee7abfe09c1e7ea80e0 = ConVar_Admin_Static
+%e5343ea0dfd8b715c4f759c607eada8e4914fa8b = PlayerAttack
+%f58b66a691667f8b2cc5257238ab7523a9855c05 = ConVar_Player_Static
+%fb6ea6bfb78f2f35c1f5438d01432b870149c293 = ConVar_Culling_Static
+%fc37bcfebf4c4e5ea0c64509bcc4746dd791b4c9 = HitInfo

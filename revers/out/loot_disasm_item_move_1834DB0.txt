@@ -1,0 +1,27 @@
+; function 0x1834DB0..0x1834E29 len 0x79
+0x01834DB0  4053                     push rbx
+0x01834DB2  55                       push rbp
+0x01834DB3  56                       push rsi
+0x01834DB4  57                       push rdi
+0x01834DB5  4881ec88000000           sub rsp, 0x88
+0x01834DBC  803dff74e90f00           cmp byte ptr [rip + 0xfe974ff], 0
+0x01834DC3  0fb6ea                   movzx ebp, dl
+0x01834DC6  488bd9                   mov rbx, rcx
+0x01834DC9  7529                     jne 0x1834df4
+0x01834DCB  488d0d1643a20f           lea rcx, [rip + 0xfa24316]
+0x01834DD2  e81906fffe               call 0x8253f0
+0x01834DD7  f0830c2400               lock or dword ptr [rsp], 0
+0x01834DDC  488d0dc51ea00f           lea rcx, [rip + 0xfa01ec5]
+0x01834DE3  e80806fffe               call 0x8253f0
+0x01834DE8  f0830c2400               lock or dword ptr [rsp], 0
+0x01834DED  c605ce74e90f01           mov byte ptr [rip + 0xfe974ce], 1
+0x01834DF4  803df19ce90f00           cmp byte ptr [rip + 0xfe99cf1], 0
+0x01834DFB  488bb360010000           mov rsi, qword ptr [rbx + 0x160]
+0x01834E02  488b7b78                 mov rdi, qword ptr [rbx + 0x78]
+0x01834E06  7518                     jne 0x1834e20
+0x01834E08  488d0de915a20f           lea rcx, [rip + 0xfa215e9]
+0x01834E0F  e8dc05fffe               call 0x8253f0
+0x01834E14  f0830c2400               lock or dword ptr [rsp], 0
+0x01834E19  c605cc9ce90f01           mov byte ptr [rip + 0xfe99ccc], 1
+0x01834E20  4885f6                   test rsi, rsi
+0x01834E23  0f84e0020000             je 0x1835109

@@ -1,0 +1,56 @@
+; PlayerLoot_ctor  0x35B1FF0..0x35B20F2 len 0x102
+0x035B1FF0  48895c2408               mov qword ptr [rsp + 8], rbx
+0x035B1FF5  57                       push rdi
+0x035B1FF6  4883ec20                 sub rsp, 0x20
+0x035B1FFA  803dba34120e00           cmp byte ptr [rip + 0xe1234ba], 0
+0x035B2001  488bf9                   mov rdi, rcx
+0x035B2004  753a                     jne 0x35b2040
+0x035B2006  488d0dbb96c10d           lea rcx, [rip + 0xdc196bb]
+0x035B200D  e8de3327fd               call 0x8253f0
+0x035B2012  f0830c2400               lock or dword ptr [rsp], 0
+0x035B2017  488d0dbad3c00d           lea rcx, [rip + 0xdc0d3ba]
+0x035B201E  e8cd3327fd               call 0x8253f0
+0x035B2023  f0830c2400               lock or dword ptr [rsp], 0
+0x035B2028  488d0db1d3c00d           lea rcx, [rip + 0xdc0d3b1]
+0x035B202F  e8bc3327fd               call 0x8253f0
+0x035B2034  f0830c2400               lock or dword ptr [rsp], 0
+0x035B2039  c6057b34120e01           mov byte ptr [rip + 0xe12347b], 1
+0x035B2040  488b0d99d3c00d           mov rcx, qword ptr [rip + 0xdc0d399]
+0x035B2047  e8547f2bfd               call 0x869fa0
+0x035B204C  488b1585d3c00d           mov rdx, qword ptr [rip + 0xdc0d385]
+0x035B2053  488bc8                   mov rcx, rax
+0x035B2056  488bd8                   mov rbx, rax
+0x035B2059  e882974b05               call 0x8a6b7e0
+0x035B205E  833d1b2c110e00           cmp dword ptr [rip + 0xe112c1b], 0
+0x035B2065  48895f30                 mov qword ptr [rdi + 0x30], rbx
+0x035B2069  7446                     je 0x35b20b1
+0x035B206B  4c8d4730                 lea r8, [rdi + 0x30]
+0x035B206F  49c1e80c                 shr r8, 0xc
+0x035B2073  488d0dc65d1a0e           lea rcx, [rip + 0xe1a5dc6]
+0x035B207A  4181e0ffff1f00           and r8d, 0x1fffff
+0x035B2081  418bc0                   mov eax, r8d
+0x035B2084  48c1e806                 shr rax, 6
+0x035B2088  4183e03f                 and r8d, 0x3f
+0x035B208C  488d14c1                 lea rdx, [rcx + rax*8]
+0x035B2090  0f0d0a                   prefetchw byte ptr [rdx]
+0x035B2093  0f1f4000                 nop dword ptr [rax]
+0x035B2097  660f1f840000000000       nop word ptr [rax + rax]
+0x035B20A0  488b02                   mov rax, qword ptr [rdx]
+0x035B20A3  488bc8                   mov rcx, rax
+0x035B20A6  4c0fabc1                 bts rcx, r8
+0x035B20AA  f0480fb10a               lock cmpxchg qword ptr [rdx], rcx
+0x035B20AF  75ef                     jne 0x35b20a0
+0x035B20B1  803d7586150e00           cmp byte ptr [rip + 0xe158675], 0
+0x035B20B8  7518                     jne 0x35b20d2
+0x035B20BA  488d0d2770ca0d           lea rcx, [rip + 0xdca7027]
+0x035B20C1  e82a3327fd               call 0x8253f0
+0x035B20C6  f0830c2400               lock or dword ptr [rsp], 0
+0x035B20CB  c6055b86150e01           mov byte ptr [rip + 0xe15865b], 1
+0x035B20D2  488b0d0f70ca0d           mov rcx, qword ptr [rip + 0xdca700f]
+0x035B20D9  83b9e400000000           cmp dword ptr [rcx + 0xe4], 0
+0x035B20E0  7505                     jne 0x35b20e7
+0x035B20E2  e8b9ec26fd               call 0x820da0
+0x035B20E7  488b5c2430               mov rbx, qword ptr [rsp + 0x30]
+0x035B20EC  4883c420                 add rsp, 0x20
+0x035B20F0  5f                       pop rdi
+0x035B20F1  c3                       ret 

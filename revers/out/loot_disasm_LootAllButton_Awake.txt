@@ -1,0 +1,44 @@
+; LootAllButton_Awake  0x463DDD0..0x463DE8D len 0xBD
+0x0463DDD0  4053                     push rbx
+0x0463DDD2  4883ec20                 sub rsp, 0x20
+0x0463DDD6  803df3c8090d00           cmp byte ptr [rip + 0xd09c8f3], 0
+0x0463DDDD  488bd9                   mov rbx, rcx
+0x0463DDE0  753a                     jne 0x463de1c
+0x0463DDE2  488d0d1799bb0c           lea rcx, [rip + 0xcbb9917]
+0x0463DDE9  e802761efc               call 0x8253f0
+0x0463DDEE  f0830c2400               lock or dword ptr [rsp], 0
+0x0463DDF3  488d0d06e5bf0c           lea rcx, [rip + 0xcbfe506]
+0x0463DDFA  e8f1751efc               call 0x8253f0
+0x0463DDFF  f0830c2400               lock or dword ptr [rsp], 0
+0x0463DE04  488d0dfd9bbb0c           lea rcx, [rip + 0xcbb9bfd]
+0x0463DE0B  e8e0751efc               call 0x8253f0
+0x0463DE10  f0830c2400               lock or dword ptr [rsp], 0
+0x0463DE15  c605b4c8090d01           mov byte ptr [rip + 0xd09c8b4], 1
+0x0463DE1C  488b15dd98bb0c           mov rdx, qword ptr [rip + 0xcbb98dd]
+0x0463DE23  488bcb                   mov rcx, rbx
+0x0463DE26  4889742430               mov qword ptr [rsp + 0x30], rsi
+0x0463DE2B  48897c2438               mov qword ptr [rsp + 0x38], rdi
+0x0463DE30  e86b548e03               call 0x7f232a0
+0x0463DE35  4885c0                   test rax, rax
+0x0463DE38  744d                     je 0x463de87
+0x0463DE3A  488b0dc79bbb0c           mov rcx, qword ptr [rip + 0xcbb9bc7]
+0x0463DE41  488bb898000000           mov rdi, qword ptr [rax + 0x98]
+0x0463DE48  e853c122fc               call 0x869fa0
+0x0463DE4D  4c8b05ace4bf0c           mov r8, qword ptr [rip + 0xcbfe4ac]
+0x0463DE54  4533c9                   xor r9d, r9d
+0x0463DE57  488bd3                   mov rdx, rbx
+0x0463DE5A  488bc8                   mov rcx, rax
+0x0463DE5D  488bf0                   mov rsi, rax
+0x0463DE60  e8dbb6fd02               call 0x7619540
+0x0463DE65  4885ff                   test rdi, rdi
+0x0463DE68  741d                     je 0x463de87
+0x0463DE6A  4533c0                   xor r8d, r8d
+0x0463DE6D  488bd6                   mov rdx, rsi
+0x0463DE70  488bcf                   mov rcx, rdi
+0x0463DE73  488b7c2438               mov rdi, qword ptr [rsp + 0x38]
+0x0463DE78  488b742430               mov rsi, qword ptr [rsp + 0x30]
+0x0463DE7D  4883c420                 add rsp, 0x20
+0x0463DE81  5b                       pop rbx
+0x0463DE82  e9494bed09               jmp 0xe5129d0
+0x0463DE87  e8d4b11dfc               call 0x819060
+0x0463DE8C  cc                       int3 

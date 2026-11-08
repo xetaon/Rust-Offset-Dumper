@@ -1,0 +1,1487 @@
+{
+  "build": "26140533",
+  "classes": {
+    "Projectile": [
+      {
+        "field": "initialVelocity",
+        "offset": 40,
+        "type": "Vector3",
+        "evidence_name": "initialVelocity",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "drag",
+        "offset": 52,
+        "type": "float",
+        "evidence_name": "drag",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "gravityModifier",
+        "offset": 56,
+        "type": "float",
+        "evidence_name": "gravityModifier",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "thickness",
+        "offset": 60,
+        "type": "float",
+        "evidence_name": "thickness",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "changeInitialOrientation",
+        "offset": 64,
+        "type": "bool",
+        "evidence_name": "changeInitialOrientation",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "initialDistance",
+        "offset": 68,
+        "type": "float",
+        "evidence_name": "initialDistance",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "initialOrientation",
+        "offset": 72,
+        "type": "Vector3",
+        "evidence_name": "initialOrientation",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "remainInWorld",
+        "offset": 84,
+        "type": "bool",
+        "evidence_name": "remainInWorld",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "stickProbability",
+        "offset": 88,
+        "type": "float",
+        "evidence_name": "stickProbability",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "breakProbability",
+        "offset": 92,
+        "type": "float",
+        "evidence_name": "breakProbability",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "conditionLoss",
+        "offset": 96,
+        "type": "float",
+        "evidence_name": "conditionLoss",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ricochetChance",
+        "offset": 100,
+        "type": "float",
+        "evidence_name": "ricochetChance",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "penetrationPower",
+        "offset": 104,
+        "type": "float",
+        "evidence_name": "penetrationPower",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "canRefract",
+        "offset": 108,
+        "type": "bool",
+        "evidence_name": "canRefract",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "penetratesVehicles",
+        "offset": 109,
+        "type": "bool",
+        "evidence_name": "penetratesVehicles",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "waterIntegrityLoss",
+        "offset": 112,
+        "type": "float",
+        "evidence_name": "waterIntegrityLoss",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "damageProperties",
+        "offset": 120,
+        "type": "DamageProperties",
+        "evidence_name": "damageProperties",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "damageDistances",
+        "offset": 128,
+        "type": "MinMax",
+        "evidence_name": "damageDistances",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "minMax",
+        "offset": 128,
+        "type": "MinMax (live alias)",
+        "evidence_name": "damageDistances",
+        "evidence_type": "",
+        "status": "ALIAS"
+      },
+      {
+        "field": "damageMultipliers",
+        "offset": 136,
+        "type": "MinMax",
+        "evidence_name": "damageMultipliers",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "damageTypes",
+        "offset": 144,
+        "type": "List<DamageTypeEntry>",
+        "evidence_name": "damageTypes",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rendererToScale",
+        "offset": 152,
+        "type": "ScaleRenderer",
+        "evidence_name": "rendererToScale",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "scaleTrailRenderer",
+        "offset": 152,
+        "type": "ScaleTrailRenderer (live alias)",
+        "evidence_name": "rendererToScale",
+        "evidence_type": "",
+        "status": "ALIAS"
+      },
+      {
+        "field": "firstPersonRenderer",
+        "offset": 160,
+        "type": "ScaleRenderer",
+        "evidence_name": "firstPersonRenderer",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "scaleTransform",
+        "offset": 160,
+        "type": "ScaleTransform (live alias)",
+        "evidence_name": "firstPersonRenderer",
+        "evidence_type": "",
+        "status": "ALIAS"
+      },
+      {
+        "field": "createDecals",
+        "offset": 168,
+        "type": "bool",
+        "evidence_name": "createDecals",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "doHitEffects",
+        "offset": 169,
+        "type": "bool",
+        "evidence_name": "doHitEffects",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "flybySound",
+        "offset": 176,
+        "type": "SoundDefinition",
+        "evidence_name": "flybySound",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "soundDefinition",
+        "offset": 176,
+        "type": "SoundDefinition (live alias)",
+        "evidence_name": "flybySound",
+        "evidence_type": "",
+        "status": "ALIAS"
+      },
+      {
+        "field": "flybySoundDistance",
+        "offset": 184,
+        "type": "float",
+        "evidence_name": "flybySoundDistance",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "closeFlybySound",
+        "offset": 192,
+        "type": "SoundDefinition",
+        "evidence_name": "closeFlybySound",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "closeFlybyDistance",
+        "offset": 200,
+        "type": "float",
+        "evidence_name": "closeFlybyDistance",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "tumbleSpeed",
+        "offset": 204,
+        "type": "float",
+        "evidence_name": "tumbleSpeed",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "tumbleAxis",
+        "offset": 208,
+        "type": "Vector3",
+        "evidence_name": "tumbleAxis",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "playDefaultHitEffects",
+        "offset": 220,
+        "type": "bool",
+        "evidence_name": "playDefaultHitEffects",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "clientEffectData",
+        "offset": 224,
+        "type": "CustomEffectData",
+        "evidence_name": "clientEffectData",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "customEffectData",
+        "offset": 224,
+        "type": "CustomEffectData (live alias)",
+        "evidence_name": "clientEffectData",
+        "evidence_type": "",
+        "status": "ALIAS"
+      },
+      {
+        "field": "clientEffectPrefab",
+        "offset": 232,
+        "type": "GameObjectRef",
+        "evidence_name": "clientEffectPrefab",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "gameObjectRef",
+        "offset": 232,
+        "type": "GameObjectRef (live alias)",
+        "evidence_name": "clientEffectPrefab",
+        "evidence_type": "",
+        "status": "ALIAS"
+      },
+      {
+        "field": "swimScale",
+        "offset": 240,
+        "type": "Vector3",
+        "evidence_name": "swimScale",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "swimSpeed",
+        "offset": 252,
+        "type": "Vector3",
+        "evidence_name": "swimSpeed",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "baseProjectile",
+        "offset": 272,
+        "type": "BaseProjectile",
+        "evidence_name": "baseProjectile",
+        "evidence_type": "BaseProjectile",
+        "status": "MATCH"
+      },
+      {
+        "field": "projectile",
+        "offset": 280,
+        "type": "Projectile",
+        "evidence_name": "projectile",
+        "evidence_type": "Projectile",
+        "status": "MATCH"
+      },
+      {
+        "field": "hidden_ccfe34b7cfa107117310af889ea8338a5bf48454",
+        "offset": 288,
+        "type": "%ccfe34b7 (HitTest)",
+        "evidence_name": "hidden_ccfe34b7cfa107117310af889ea8338a5bf48454",
+        "evidence_type": "%ccfe34b7",
+        "status": "MATCH"
+      },
+      {
+        "field": "maxDistance",
+        "offset": 320,
+        "type": "float",
+        "evidence_name": "maxDistance",
+        "evidence_type": "float",
+        "status": "MATCH"
+      },
+      {
+        "field": "currentVelocity",
+        "offset": 356,
+        "type": "Vector3",
+        "evidence_name": "currentVelocity",
+        "evidence_type": "Vector3",
+        "status": "MATCH"
+      },
+      {
+        "field": "currentPosition",
+        "offset": 368,
+        "type": "Vector3",
+        "evidence_name": "currentPosition",
+        "evidence_type": "Vector3",
+        "status": "MATCH"
+      },
+      {
+        "field": "traveledDistance",
+        "offset": 380,
+        "type": "float",
+        "evidence_name": "traveledDistance",
+        "evidence_type": "float",
+        "status": "MATCH"
+      },
+      {
+        "field": "traveledTime",
+        "offset": 384,
+        "type": "float",
+        "evidence_name": "traveledTime",
+        "evidence_type": "float",
+        "status": "MATCH"
+      },
+      {
+        "field": "sentPosition",
+        "offset": 392,
+        "type": "Vector3",
+        "evidence_name": "sentPosition",
+        "evidence_type": "Vector3",
+        "status": "MATCH"
+      },
+      {
+        "field": "previousPosition",
+        "offset": 404,
+        "type": "Vector3",
+        "evidence_name": "previousPosition",
+        "evidence_type": "Vector3",
+        "status": "MATCH"
+      },
+      {
+        "field": "previousVelocity",
+        "offset": 416,
+        "type": "Vector3",
+        "evidence_name": "previousVelocity",
+        "evidence_type": "Vector3",
+        "status": "MATCH"
+      },
+      {
+        "field": "previousTraveledTime",
+        "offset": 428,
+        "type": "float",
+        "evidence_name": "previousTraveledTime",
+        "evidence_type": "float",
+        "status": "MATCH"
+      },
+      {
+        "field": "mod",
+        "offset": 480,
+        "type": "ItemModProjectile",
+        "evidence_name": "mod",
+        "evidence_type": "ItemModProjectile",
+        "status": "MATCH"
+      },
+      {
+        "field": "owner",
+        "offset": 496,
+        "type": "BasePlayer",
+        "evidence_name": "owner",
+        "evidence_type": "BasePlayer",
+        "status": "MATCH"
+      }
+    ],
+    "AttackEntity": [
+      {
+        "field": "deployDelay",
+        "offset": 752,
+        "type": "float",
+        "evidence_name": "deployDelay",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "repeatDelay",
+        "offset": 756,
+        "type": "float",
+        "evidence_name": "repeatDelay",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "animationDelay",
+        "offset": 760,
+        "type": "float",
+        "evidence_name": "animationDelay",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "effectiveRange",
+        "offset": 764,
+        "type": "float",
+        "evidence_name": "effectiveRange",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "npcDamageScale",
+        "offset": 768,
+        "type": "float",
+        "evidence_name": "npcDamageScale",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "attackLengthMin",
+        "offset": 772,
+        "type": "float",
+        "evidence_name": "attackLengthMin",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "attackLengthMax",
+        "offset": 776,
+        "type": "float",
+        "evidence_name": "attackLengthMax",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "attackSpacing",
+        "offset": 780,
+        "type": "float",
+        "evidence_name": "attackSpacing",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "aiAimSwayOffset",
+        "offset": 784,
+        "type": "float",
+        "evidence_name": "aiAimSwayOffset",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "aiAimCone",
+        "offset": 788,
+        "type": "float",
+        "evidence_name": "aiAimCone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "aiOnlyInRange",
+        "offset": 792,
+        "type": "bool",
+        "evidence_name": "aiOnlyInRange",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "CloseRangeAddition",
+        "offset": 796,
+        "type": "float",
+        "evidence_name": "CloseRangeAddition",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "MediumRangeAddition",
+        "offset": 800,
+        "type": "float",
+        "evidence_name": "MediumRangeAddition",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "LongRangeAddition",
+        "offset": 804,
+        "type": "float",
+        "evidence_name": "LongRangeAddition",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "CanUseAtMediumRange",
+        "offset": 808,
+        "type": "bool",
+        "evidence_name": "CanUseAtMediumRange",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "CanUseAtLongRange",
+        "offset": 809,
+        "type": "bool",
+        "evidence_name": "CanUseAtLongRange",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "reloadSounds",
+        "offset": 816,
+        "type": "SoundDefinition[]",
+        "evidence_name": "reloadSounds",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "thirdPersonMeleeSound",
+        "offset": 824,
+        "type": "SoundDefinition",
+        "evidence_name": "thirdPersonMeleeSound",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "recoilCompDelayOverride",
+        "offset": 832,
+        "type": "float",
+        "evidence_name": "recoilCompDelayOverride",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "wantsRecoilComp",
+        "offset": 836,
+        "type": "bool",
+        "evidence_name": "wantsRecoilComp",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "showCrosshairOnTutorial",
+        "offset": 837,
+        "type": "bool",
+        "evidence_name": "showCrosshairOnTutorial",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "noHeadshots",
+        "offset": 838,
+        "type": "bool",
+        "evidence_name": "noHeadshots",
+        "evidence_type": "",
+        "status": "MATCH"
+      }
+    ],
+    "PlayerModel": [
+      {
+        "field": "Shoulders",
+        "offset": 152,
+        "type": "Transform[]",
+        "evidence_name": "Shoulders",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "AdditionalSpineBones",
+        "offset": 160,
+        "type": "Transform[]",
+        "evidence_name": "AdditionalSpineBones",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "_multiMesh",
+        "offset": 184,
+        "type": "SkinnedMultiMesh",
+        "evidence_name": "_multiMesh",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnAimSmoothTime",
+        "offset": 208,
+        "type": "float",
+        "evidence_name": "TurnAimSmoothTime",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnHead",
+        "offset": 212,
+        "type": "TurnSegment",
+        "evidence_name": "TurnHead",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnChest",
+        "offset": 228,
+        "type": "TurnSegment",
+        "evidence_name": "TurnChest",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnSpine",
+        "offset": 244,
+        "type": "TurnSegment",
+        "evidence_name": "TurnSpine",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnPelvis",
+        "offset": 260,
+        "type": "TurnSegment",
+        "evidence_name": "TurnPelvis",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnChestLowerShare",
+        "offset": 276,
+        "type": "float",
+        "evidence_name": "TurnChestLowerShare",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnSpineLowerShare",
+        "offset": 280,
+        "type": "float",
+        "evidence_name": "TurnSpineLowerShare",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnHeadLockAngle",
+        "offset": 284,
+        "type": "float",
+        "evidence_name": "TurnHeadLockAngle",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnHeadSmoothTime",
+        "offset": 288,
+        "type": "float",
+        "evidence_name": "TurnHeadSmoothTime",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnHeadMaxSpeed",
+        "offset": 292,
+        "type": "float",
+        "evidence_name": "TurnHeadMaxSpeed",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnHeadAimFadeSpeed",
+        "offset": 296,
+        "type": "float",
+        "evidence_name": "TurnHeadAimFadeSpeed",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnClips",
+        "offset": 304,
+        "type": "TurnClipSet",
+        "evidence_name": "TurnClips",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnSpeedByBacklog",
+        "offset": 312,
+        "type": "AnimationCurve",
+        "evidence_name": "TurnSpeedByBacklog",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnMoveThreshold",
+        "offset": 320,
+        "type": "float",
+        "evidence_name": "TurnMoveThreshold",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnSuppressProceduralLegs",
+        "offset": 324,
+        "type": "bool",
+        "evidence_name": "TurnSuppressProceduralLegs",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnLegBlendTime",
+        "offset": 328,
+        "type": "float",
+        "evidence_name": "TurnLegBlendTime",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnPelvisEnabled",
+        "offset": 332,
+        "type": "bool",
+        "evidence_name": "TurnPelvisEnabled",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnPelvisFootPinWeight",
+        "offset": 336,
+        "type": "float",
+        "evidence_name": "TurnPelvisFootPinWeight",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnArmFadeSpeed",
+        "offset": 340,
+        "type": "float",
+        "evidence_name": "TurnArmFadeSpeed",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TurnArmFadeWeight",
+        "offset": 344,
+        "type": "float",
+        "evidence_name": "TurnArmFadeWeight",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "collision",
+        "offset": 528,
+        "type": "BoxCollider",
+        "evidence_name": "collision",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "censorshipCube",
+        "offset": 536,
+        "type": "GameObject",
+        "evidence_name": "censorshipCube",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "censorshipCubeBreasts",
+        "offset": 544,
+        "type": "GameObject",
+        "evidence_name": "censorshipCubeBreasts",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "jawBone",
+        "offset": 552,
+        "type": "GameObject",
+        "evidence_name": "jawBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "neckBone",
+        "offset": 560,
+        "type": "GameObject",
+        "evidence_name": "neckBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "headBone",
+        "offset": 568,
+        "type": "GameObject",
+        "evidence_name": "headBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftEye",
+        "offset": 576,
+        "type": "GameObject",
+        "evidence_name": "leftEye",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightEye",
+        "offset": 584,
+        "type": "GameObject",
+        "evidence_name": "rightEye",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "eyeController",
+        "offset": 592,
+        "type": "EyeController",
+        "evidence_name": "eyeController",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "blinkController",
+        "offset": 600,
+        "type": "EyeBlink",
+        "evidence_name": "blinkController",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "SpineBones",
+        "offset": 608,
+        "type": "Transform[]",
+        "evidence_name": "SpineBones",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftFootBone",
+        "offset": 616,
+        "type": "Transform",
+        "evidence_name": "leftFootBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightFootBone",
+        "offset": 624,
+        "type": "Transform",
+        "evidence_name": "rightFootBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftHandPropBone",
+        "offset": 632,
+        "type": "Transform",
+        "evidence_name": "leftHandPropBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightHandPropBone",
+        "offset": 640,
+        "type": "Transform",
+        "evidence_name": "rightHandPropBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightHandTarget",
+        "offset": 648,
+        "type": "Vector3",
+        "evidence_name": "rightHandTarget",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftClavicleBone",
+        "offset": 664,
+        "type": "Transform",
+        "evidence_name": "leftClavicleBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "isPreview",
+        "offset": 672,
+        "type": "bool",
+        "evidence_name": "isPreview",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftHandTargetPosition",
+        "offset": 676,
+        "type": "Vector3",
+        "evidence_name": "leftHandTargetPosition",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftHandTargetRotation",
+        "offset": 688,
+        "type": "Quaternion",
+        "evidence_name": "leftHandTargetRotation",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightHandTargetPosition",
+        "offset": 704,
+        "type": "Vector3",
+        "evidence_name": "rightHandTargetPosition",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightHandTargetRotation",
+        "offset": 716,
+        "type": "Quaternion",
+        "evidence_name": "rightHandTargetRotation",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftUlnaTwistBone",
+        "offset": 736,
+        "type": "Transform",
+        "evidence_name": "leftUlnaTwistBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightUlnaTwistBone",
+        "offset": 744,
+        "type": "Transform",
+        "evidence_name": "rightUlnaTwistBone",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftHandTwistRelaxWeight",
+        "offset": 752,
+        "type": "float",
+        "evidence_name": "leftHandTwistRelaxWeight",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightHandTwistRelaxWeight",
+        "offset": 756,
+        "type": "float",
+        "evidence_name": "rightHandTwistRelaxWeight",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "TwistBones",
+        "offset": 760,
+        "type": "PlayerTwistBoneSetup[]",
+        "evidence_name": "TwistBones",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "steeringTargetDegrees",
+        "offset": 768,
+        "type": "float",
+        "evidence_name": "steeringTargetDegrees",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "playerBoatSteeringTargetDegrees",
+        "offset": 772,
+        "type": "float",
+        "evidence_name": "playerBoatSteeringTargetDegrees",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightFootTargetPosition",
+        "offset": 776,
+        "type": "Vector3",
+        "evidence_name": "rightFootTargetPosition",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "rightFootTargetRotation",
+        "offset": 788,
+        "type": "Quaternion",
+        "evidence_name": "rightFootTargetRotation",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftFootTargetPosition",
+        "offset": 804,
+        "type": "Vector3",
+        "evidence_name": "leftFootTargetPosition",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "leftFootTargetRotation",
+        "offset": 816,
+        "type": "Quaternion",
+        "evidence_name": "leftFootTargetRotation",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "legsAnimator",
+        "offset": 832,
+        "type": "LegsAnimator",
+        "evidence_name": "legsAnimator",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "upperBodyMask",
+        "offset": 840,
+        "type": "AvatarMask",
+        "evidence_name": "upperBodyMask",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "fullMask",
+        "offset": 848,
+        "type": "AvatarMask",
+        "evidence_name": "fullMask",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "CinematicAnimationController",
+        "offset": 856,
+        "type": "RuntimeAnimatorController",
+        "evidence_name": "CinematicAnimationController",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "DefaultAvatar",
+        "offset": 864,
+        "type": "Avatar",
+        "evidence_name": "DefaultAvatar",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "CinematicAvatar",
+        "offset": 872,
+        "type": "Avatar",
+        "evidence_name": "CinematicAvatar",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "DefaultHoldType",
+        "offset": 880,
+        "type": "RuntimeAnimatorController",
+        "evidence_name": "DefaultHoldType",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "SleepGesture",
+        "offset": 888,
+        "type": "RuntimeAnimatorController",
+        "evidence_name": "SleepGesture",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "CrawlToIncapacitatedGesture",
+        "offset": 896,
+        "type": "RuntimeAnimatorController",
+        "evidence_name": "CrawlToIncapacitatedGesture",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "CrawlToIncapacitatedGestureHandcuff",
+        "offset": 904,
+        "type": "RuntimeAnimatorController",
+        "evidence_name": "CrawlToIncapacitatedGestureHandcuff",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "StandToIncapacitatedGesture",
+        "offset": 912,
+        "type": "RuntimeAnimatorController",
+        "evidence_name": "StandToIncapacitatedGesture",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "MaleSkin",
+        "offset": 928,
+        "type": "SkinSetCollection",
+        "evidence_name": "MaleSkin",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "FemaleSkin",
+        "offset": 936,
+        "type": "SkinSetCollection",
+        "evidence_name": "FemaleSkin",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "MannequinSkin",
+        "offset": 944,
+        "type": "SkinSetCollection",
+        "evidence_name": "MannequinSkin",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "subsurfaceProfile",
+        "offset": 952,
+        "type": "SubsurfaceProfile",
+        "evidence_name": "subsurfaceProfile",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "voiceVolume",
+        "offset": 960,
+        "type": "float",
+        "evidence_name": "voiceVolume",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "skinColor",
+        "offset": 964,
+        "type": "float",
+        "evidence_name": "skinColor",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "skinNumber",
+        "offset": 968,
+        "type": "float",
+        "evidence_name": "skinNumber",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "meshNumber",
+        "offset": 972,
+        "type": "float",
+        "evidence_name": "meshNumber",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "meshSubNumber",
+        "offset": 976,
+        "type": "float",
+        "evidence_name": "meshSubNumber",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "hairNumber",
+        "offset": 980,
+        "type": "float",
+        "evidence_name": "hairNumber",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "dyeNumber",
+        "offset": 984,
+        "type": "float",
+        "evidence_name": "dyeNumber",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "skinType",
+        "offset": 988,
+        "type": "int",
+        "evidence_name": "skinType",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "mouthFlapPosRange",
+        "offset": 992,
+        "type": "float",
+        "evidence_name": "mouthFlapPosRange",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "mouthFlapRotRange",
+        "offset": 996,
+        "type": "float",
+        "evidence_name": "mouthFlapRotRange",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "mouthSidePosRange",
+        "offset": 1000,
+        "type": "float",
+        "evidence_name": "mouthSidePosRange",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "mouthSideFrequency",
+        "offset": 1004,
+        "type": "float",
+        "evidence_name": "mouthSideFrequency",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmMotionWeight",
+        "offset": 1008,
+        "type": "float",
+        "evidence_name": "ArmMotionWeight",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmGravity",
+        "offset": 1012,
+        "type": "float",
+        "evidence_name": "ArmGravity",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmGravityByPitch",
+        "offset": 1016,
+        "type": "AnimationCurve",
+        "evidence_name": "ArmGravityByPitch",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmStiffness",
+        "offset": 1024,
+        "type": "float",
+        "evidence_name": "ArmStiffness",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmDamping",
+        "offset": 1028,
+        "type": "float",
+        "evidence_name": "ArmDamping",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmMotionSpeedLimit",
+        "offset": 1032,
+        "type": "float",
+        "evidence_name": "ArmMotionSpeedLimit",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmFlexAngle",
+        "offset": 1036,
+        "type": "float",
+        "evidence_name": "ArmFlexAngle",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmFlexByPitch",
+        "offset": 1040,
+        "type": "AnimationCurve",
+        "evidence_name": "ArmFlexByPitch",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmSpinFadeStart",
+        "offset": 1048,
+        "type": "float",
+        "evidence_name": "ArmSpinFadeStart",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "ArmSpinFadeEnd",
+        "offset": 1052,
+        "type": "float",
+        "evidence_name": "ArmSpinFadeEnd",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "SpineLookUpLimit",
+        "offset": 1056,
+        "type": "float",
+        "evidence_name": "SpineLookUpLimit",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "SpineTwistClamp",
+        "offset": 1060,
+        "type": "float",
+        "evidence_name": "SpineTwistClamp",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "SpineHeadLookWeightVertical",
+        "offset": 1064,
+        "type": "float",
+        "evidence_name": "SpineHeadLookWeightVertical",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "HeadYawLimit",
+        "offset": 1068,
+        "type": "float",
+        "evidence_name": "HeadYawLimit",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "SpineLowerFollow",
+        "offset": 1072,
+        "type": "float",
+        "evidence_name": "SpineLowerFollow",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "SpineFollowSmoothSpeed",
+        "offset": 1076,
+        "type": "float",
+        "evidence_name": "SpineFollowSmoothSpeed",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "movementSounds",
+        "offset": 1080,
+        "type": "MovementSounds",
+        "evidence_name": "movementSounds",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "showSash",
+        "offset": 1088,
+        "type": "bool",
+        "evidence_name": "showSash",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "tempPoseType",
+        "offset": 1092,
+        "type": "int",
+        "evidence_name": "tempPoseType",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "underwearSkin",
+        "offset": 1096,
+        "type": "uint",
+        "evidence_name": "underwearSkin",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "position",
+        "offset": 1160,
+        "type": "Vector3",
+        "evidence_name": "position",
+        "evidence_type": "",
+        "status": "MATCH"
+      },
+      {
+        "field": "animator",
+        "offset": 1656,
+        "type": "Animator",
+        "evidence_name": "animator",
+        "evidence_type": "Animator",
+        "status": "MATCH"
+      },
+      {
+        "field": "modelState",
+        "offset": 1752,
+        "type": "%d5d14770",
+        "evidence_name": "modelState",
+        "evidence_type": "%d5d14770",
+        "status": "MATCH"
+      }
+    ]
+  },
+  "summary": {
+    "Projectile": {
+      "MATCH": 49,
+      "ALIAS": 6
+    },
+    "AttackEntity": {
+      "MATCH": 22
+    },
+    "PlayerModel": {
+      "MATCH": 106
+    }
+  }
+}

@@ -1,0 +1,66 @@
+﻿Rust-Offset-Dumper static decryptor report
+==================================================================
+binary: C:\Program Files (x86)\Steam\steamapps\common\Rust\GameAssembly.dll
+
+ClientEntitiesDecrypt  wrapper=True  MATCH
+  func  = 0x55a5c9d
+  block = 0x55a5cf2
+  binary chain = [['sub', 1240884957], ['xor', 23435578], ['rol', 12], ['xor', 116019654]]
+  header chain = [['sub', 1240884957], ['xor', 23435578], ['rol', 12], ['xor', 116019654]]
+  expr = ((((u32)(((v - 0x49F666DDu) ^ 0x0165993Au)) >> 20) | ((u32)(((v - 0x49F666DDu) ^ 0x0165993Au)) << 12)) ^ 0x06EA51C6u)
+
+EntityListDecrypt  wrapper=True  MATCH
+  func  = 0x1c5c550
+  block = 0x1c5c5c0
+  binary chain = [['add', 1617574236], ['rol', 17], ['sub', 940367132]]
+  header chain = [['add', 1617574236], ['rol', 17], ['sub', 940367132]]
+  expr = ((((u32)((v + 0x606A395Cu)) >> 15) | ((u32)((v + 0x606A395Cu)) << 17)) - 0x380CDD1Cu)
+
+PlayerEyesDecrypt  wrapper=True  MATCH
+  func  = 0x4030cf0
+  block = 0x4030d30
+  binary chain = [['xor', 2367666280], ['rol', 13], ['xor', 3179287821], ['add', 1520589203]]
+  header chain = [['xor', 2367666280], ['rol', 13], ['xor', 3179287821], ['add', 1520589203]]
+  expr = (((((u32)((v ^ 0x8D1FB868u)) >> 19) | ((u32)((v ^ 0x8D1FB868u)) << 13)) ^ 0xBD80150Du) + 0x5AA25993u)
+
+PlayerInventoryDecrypt  wrapper=True  MATCH
+  func  = 0x3e204a8
+  block = 0x3e204d0
+  binary chain = [['rol', 2], ['add', 2699791665], ['rol', 31], ['sub', 322663932]]
+  header chain = [['rol', 2], ['add', 2699791665], ['rol', 31], ['sub', 322663932]]
+  expr = ((((u32)(((((u32)(v) >> 30) | ((u32)(v) << 2)) + 0xA0EB8D31u)) >> 1) | ((u32)(((((u32)(v) >> 30) | ((u32)(v) << 2)) + 0xA0EB8D31u)) << 31)) - 0x133B75FCu)
+
+ClActiveItemDecrypt  wrapper=False  MATCH
+  func  = 0x3e8e5e0
+  block = 0x3e8e600
+  binary chain = [['rol', 2], ['xor', 3961527035], ['add', 1029896378], ['rol', 16]]
+  header chain = [['rol', 2], ['xor', 3961527035], ['add', 1029896378], ['rol', 16]]
+  expr = (((u32)((((((u32)(v) << 2) | ((u32)(v) >> 30)) ^ 0xEC201AFBu) + 0x3D62F8BAu)) >> 16) | ((u32)((((((u32)(v) << 2) | ((u32)(v) >> 30)) ^ 0xEC201AFBu) + 0x3D62F8BAu)) << 16))
+
+UserIDDecrypt  wrapper=False  MATCH
+  func  = 0x3ee22c0
+  block = 0x3ee22e0
+  binary chain = [['rol', 26], ['add', 938294853], ['rol', 28]]
+  header chain = [['rol', 26], ['add', 938294853], ['rol', 28]]
+  expr = (((u32)(((((u32)(v) >> 6) | ((u32)(v) << 26)) + 0x37ED3E45u)) >> 4) | ((u32)(((((u32)(v) >> 6) | ((u32)(v) << 26)) + 0x37ED3E45u)) << 28))
+
+PlayerWalkMovementBody  wrapper=True  MATCH
+  func  = 0x6251d33
+  block = 0x6251e10
+  binary chain = [['rol', 22], ['add', 1564901237], ['rol', 5], ['sub', 764056274]]
+  header chain = [['add', 764056274], ['rol', 27], ['sub', 1564901237], ['rol', 10]]
+  expr = ((((u32)(((((u32)(v) >> 10) | ((u32)(v) << 22)) + 0x5D467F75u)) >> 27) | ((u32)(((((u32)(v) >> 10) | ((u32)(v) << 22)) + 0x5D467F75u)) << 5)) - 0x2D8A92D2u)
+
+PlayerWalkMovementCapsule  wrapper=True  MATCH
+  func  = 0x621e99e
+  block = 0x621e9c0
+  binary chain = [['add', 690357142], ['xor', 1052708335], ['add', 1310678560]]
+  header chain = [['add', 690357142], ['xor', 1052708335], ['add', 1310678560]]
+  expr = (((v + 0x29260396u) ^ 0x3EBF0DEFu) + 0x4E1F5E20u)
+
+BasePlayerCapsuleCollider  wrapper=True  MATCH
+  func  = 0x3eb45f8
+  block = 0x3eb4740
+  binary chain = [['rol', 15], ['add', 1997913207], ['rol', 14]]
+  header chain = [['rol', 18], ['sub', 1997913207], ['rol', 17]]
+  expr = (((u32)(((((u32)(v) >> 17) | ((u32)(v) << 15)) + 0x7715BC77u)) >> 18) | ((u32)(((((u32)(v) >> 17) | ((u32)(v) << 15)) + 0x7715BC77u)) << 14))

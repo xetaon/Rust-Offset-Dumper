@@ -1,0 +1,5415 @@
+﻿{
+  "dumpdir": "C:\\Users\\SystemX\\Desktop\\Rust-Offset-DumperDumps",
+  "build": "26140533",
+  "classes": {
+    "AttackEntity": {
+      "name": "AttackEntity",
+      "fields": [
+        {
+          "name": "deployDelay",
+          "offset": 752,
+          "kind": "instance"
+        },
+        {
+          "name": "repeatDelay",
+          "offset": 756,
+          "kind": "instance"
+        },
+        {
+          "name": "animationDelay",
+          "offset": 760,
+          "kind": "instance"
+        },
+        {
+          "name": "effectiveRange",
+          "offset": 764,
+          "kind": "instance"
+        },
+        {
+          "name": "npcDamageScale",
+          "offset": 768,
+          "kind": "instance"
+        },
+        {
+          "name": "attackLengthMin",
+          "offset": 772,
+          "kind": "instance"
+        },
+        {
+          "name": "attackLengthMax",
+          "offset": 776,
+          "kind": "instance"
+        },
+        {
+          "name": "attackSpacing",
+          "offset": 780,
+          "kind": "instance"
+        },
+        {
+          "name": "aiAimSwayOffset",
+          "offset": 784,
+          "kind": "instance"
+        },
+        {
+          "name": "aiAimCone",
+          "offset": 788,
+          "kind": "instance"
+        },
+        {
+          "name": "aiOnlyInRange",
+          "offset": 792,
+          "kind": "instance"
+        },
+        {
+          "name": "CloseRangeAddition",
+          "offset": 796,
+          "kind": "instance"
+        },
+        {
+          "name": "MediumRangeAddition",
+          "offset": 800,
+          "kind": "instance"
+        },
+        {
+          "name": "LongRangeAddition",
+          "offset": 804,
+          "kind": "instance"
+        },
+        {
+          "name": "CanUseAtMediumRange",
+          "offset": 808,
+          "kind": "instance"
+        },
+        {
+          "name": "CanUseAtLongRange",
+          "offset": 809,
+          "kind": "instance"
+        },
+        {
+          "name": "reloadSounds",
+          "offset": 816,
+          "kind": "instance"
+        },
+        {
+          "name": "thirdPersonMeleeSound",
+          "offset": 824,
+          "kind": "instance"
+        },
+        {
+          "name": "recoilCompDelayOverride",
+          "offset": 832,
+          "kind": "instance"
+        },
+        {
+          "name": "wantsRecoilComp",
+          "offset": 836,
+          "kind": "instance"
+        },
+        {
+          "name": "showCrosshairOnTutorial",
+          "offset": 837,
+          "kind": "instance"
+        },
+        {
+          "name": "noHeadshots",
+          "offset": 838,
+          "kind": "instance"
+        }
+      ]
+    },
+    "BaseCombatEntity": {
+      "name": "BaseCombatEntity",
+      "fields": [
+        {
+          "name": "spawnDeployableCorpseOnDeath",
+          "offset": 536,
+          "kind": "instance"
+        },
+        {
+          "name": "deployableCorpsePrefab",
+          "offset": 544,
+          "kind": "instance"
+        },
+        {
+          "name": "skeletonProperties",
+          "offset": 568,
+          "kind": "instance"
+        },
+        {
+          "name": "baseProtection",
+          "offset": 576,
+          "kind": "instance"
+        },
+        {
+          "name": "startHealth",
+          "offset": 584,
+          "kind": "instance"
+        },
+        {
+          "name": "pickup",
+          "offset": 592,
+          "kind": "instance"
+        },
+        {
+          "name": "repair",
+          "offset": 632,
+          "kind": "instance"
+        },
+        {
+          "name": "ShowHealthInfo",
+          "offset": 680,
+          "kind": "instance"
+        },
+        {
+          "name": "showHealthInfoThreshold",
+          "offset": 684,
+          "kind": "instance"
+        },
+        {
+          "name": "lifestate",
+          "offset": 688,
+          "kind": "instance"
+        },
+        {
+          "name": "sendsHitNotification",
+          "offset": 692,
+          "kind": "instance"
+        },
+        {
+          "name": "sendsMeleeHitNotification",
+          "offset": 693,
+          "kind": "instance"
+        },
+        {
+          "name": "markAttackerHostile",
+          "offset": 694,
+          "kind": "instance"
+        },
+        {
+          "name": "faction",
+          "offset": 708,
+          "kind": "instance"
+        }
+      ]
+    },
+    "BaseEntity": {
+      "name": "BaseEntity",
+      "fields": [
+        {
+          "name": "triggers",
+          "offset": 176,
+          "kind": "instance"
+        },
+        {
+          "name": "positionLerp",
+          "offset": 224,
+          "kind": "instance"
+        },
+        {
+          "name": "bounds",
+          "offset": 404,
+          "kind": "instance"
+        },
+        {
+          "name": "impactEffect",
+          "offset": 432,
+          "kind": "instance"
+        },
+        {
+          "name": "enableSaving",
+          "offset": 440,
+          "kind": "instance"
+        },
+        {
+          "name": "syncPosition",
+          "offset": 441,
+          "kind": "instance"
+        },
+        {
+          "name": "model",
+          "offset": 448,
+          "kind": "instance"
+        },
+        {
+          "name": "flags",
+          "offset": 456,
+          "kind": "instance"
+        },
+        {
+          "name": "HasBrain",
+          "offset": 488,
+          "kind": "instance"
+        }
+      ]
+    },
+    "BaseMelee": {
+      "name": "BaseMelee",
+      "fields": [
+        {
+          "name": "canThrowAsProjectile",
+          "offset": 904,
+          "kind": "instance"
+        },
+        {
+          "name": "canThrowAsEntity",
+          "offset": 905,
+          "kind": "instance"
+        },
+        {
+          "name": "canAiHearIt",
+          "offset": 906,
+          "kind": "instance"
+        },
+        {
+          "name": "canScareAiWhenAimed",
+          "offset": 907,
+          "kind": "instance"
+        },
+        {
+          "name": "onlyThrowAsProjectile",
+          "offset": 908,
+          "kind": "instance"
+        },
+        {
+          "name": "ThrowFullStack",
+          "offset": 909,
+          "kind": "instance"
+        },
+        {
+          "name": "damageProperties",
+          "offset": 912,
+          "kind": "instance"
+        },
+        {
+          "name": "damageTypes",
+          "offset": 920,
+          "kind": "instance"
+        },
+        {
+          "name": "deployableDamageOverrides",
+          "offset": 928,
+          "kind": "instance"
+        },
+        {
+          "name": "maxDistance",
+          "offset": 936,
+          "kind": "instance"
+        },
+        {
+          "name": "attackRadius",
+          "offset": 940,
+          "kind": "instance"
+        },
+        {
+          "name": "isAutomatic",
+          "offset": 944,
+          "kind": "instance"
+        },
+        {
+          "name": "blockSprintOnAttack",
+          "offset": 945,
+          "kind": "instance"
+        },
+        {
+          "name": "canUntieCrates",
+          "offset": 946,
+          "kind": "instance"
+        },
+        {
+          "name": "longResourceForgiveness",
+          "offset": 947,
+          "kind": "instance"
+        },
+        {
+          "name": "PlayerAnimSystem",
+          "offset": 952,
+          "kind": "instance"
+        },
+        {
+          "name": "strikeFX",
+          "offset": 960,
+          "kind": "instance"
+        },
+        {
+          "name": "useStandardHitEffects",
+          "offset": 968,
+          "kind": "instance"
+        },
+        {
+          "name": "aiStrikeDelay",
+          "offset": 972,
+          "kind": "instance"
+        },
+        {
+          "name": "swingEffect",
+          "offset": 976,
+          "kind": "instance"
+        },
+        {
+          "name": "materialStrikeFX",
+          "offset": 984,
+          "kind": "instance"
+        },
+        {
+          "name": "heartStress",
+          "offset": 992,
+          "kind": "instance"
+        },
+        {
+          "name": "gathering",
+          "offset": 1000,
+          "kind": "instance"
+        }
+      ]
+    },
+    "BaseNetworkable": {
+      "name": "BaseNetworkable",
+      "fields": [
+        {
+          "name": "postNetworkUpdateComponents",
+          "offset": 48,
+          "kind": "instance"
+        },
+        {
+          "name": "parentEntity",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "prefabID",
+          "offset": 84,
+          "kind": "instance"
+        },
+        {
+          "name": "globalBroadcast",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "globalNetworkBehavior",
+          "offset": 92,
+          "kind": "instance"
+        },
+        {
+          "name": "globalBuildingBlock",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "networkRange",
+          "offset": 100,
+          "kind": "instance"
+        },
+        {
+          "name": "children",
+          "offset": 112,
+          "kind": "instance"
+        }
+      ]
+    },
+    "BasePlayer": {
+      "name": "BasePlayer",
+      "fields": [
+        {
+          "name": "lastSentTick",
+          "offset": 856,
+          "kind": "instance"
+        },
+        {
+          "name": "modelState",
+          "offset": 920,
+          "kind": "instance"
+        },
+        {
+          "name": "eyes",
+          "offset": 968,
+          "kind": "instance"
+        },
+        {
+          "name": "GestureViewModel",
+          "offset": 1080,
+          "kind": "instance"
+        },
+        {
+          "name": "input",
+          "offset": 1088,
+          "kind": "instance"
+        },
+        {
+          "name": "_lookingAt",
+          "offset": 1288,
+          "kind": "instance"
+        },
+        {
+          "name": "movement",
+          "offset": 1360,
+          "kind": "instance"
+        },
+        {
+          "name": "inventory",
+          "offset": 1504,
+          "kind": "instance"
+        },
+        {
+          "name": "mounted",
+          "offset": 1512,
+          "kind": "instance"
+        },
+        {
+          "name": "fallDamageEffect",
+          "offset": 1744,
+          "kind": "instance"
+        },
+        {
+          "name": "drownEffect",
+          "offset": 1752,
+          "kind": "instance"
+        },
+        {
+          "name": "_displayName",
+          "offset": 1784,
+          "kind": "instance"
+        },
+        {
+          "name": "modifiers",
+          "offset": 1816,
+          "kind": "instance"
+        },
+        {
+          "name": "playerModel",
+          "offset": 1864,
+          "kind": "instance"
+        }
+      ]
+    },
+    "BaseProjectile": {
+      "name": "BaseProjectile",
+      "fields": [
+        {
+          "name": "NoiseRadius",
+          "offset": 904,
+          "kind": "instance"
+        },
+        {
+          "name": "damageScale",
+          "offset": 908,
+          "kind": "instance"
+        },
+        {
+          "name": "distanceScale",
+          "offset": 912,
+          "kind": "instance"
+        },
+        {
+          "name": "farDamageScale",
+          "offset": 916,
+          "kind": "instance"
+        },
+        {
+          "name": "farDistanceScale",
+          "offset": 920,
+          "kind": "instance"
+        },
+        {
+          "name": "projectileVelocityScale",
+          "offset": 924,
+          "kind": "instance"
+        },
+        {
+          "name": "automatic",
+          "offset": 928,
+          "kind": "instance"
+        },
+        {
+          "name": "usableByTurret",
+          "offset": 929,
+          "kind": "instance"
+        },
+        {
+          "name": "turretDamageScale",
+          "offset": 932,
+          "kind": "instance"
+        },
+        {
+          "name": "largeTurretWeapon",
+          "offset": 936,
+          "kind": "instance"
+        },
+        {
+          "name": "turretReloadDurationOverride",
+          "offset": 940,
+          "kind": "instance"
+        },
+        {
+          "name": "maxAttackEffectDistance",
+          "offset": 944,
+          "kind": "instance"
+        },
+        {
+          "name": "attackFX",
+          "offset": 952,
+          "kind": "instance"
+        },
+        {
+          "name": "silencedAttack",
+          "offset": 960,
+          "kind": "instance"
+        },
+        {
+          "name": "muzzleBrakeAttack",
+          "offset": 968,
+          "kind": "instance"
+        },
+        {
+          "name": "fireModeSound",
+          "offset": 976,
+          "kind": "instance"
+        },
+        {
+          "name": "MuzzlePoint",
+          "offset": 984,
+          "kind": "instance"
+        },
+        {
+          "name": "reloadTime",
+          "offset": 992,
+          "kind": "instance"
+        },
+        {
+          "name": "canUnloadAmmo",
+          "offset": 996,
+          "kind": "instance"
+        },
+        {
+          "name": "primaryMagazine",
+          "offset": 1000,
+          "kind": "instance"
+        },
+        {
+          "name": "fractionalReload",
+          "offset": 1008,
+          "kind": "instance"
+        },
+        {
+          "name": "reloadStartDuration",
+          "offset": 1012,
+          "kind": "instance"
+        },
+        {
+          "name": "reloadFractionDuration",
+          "offset": 1016,
+          "kind": "instance"
+        },
+        {
+          "name": "reloadEndDuration",
+          "offset": 1020,
+          "kind": "instance"
+        },
+        {
+          "name": "alternateDryFireRate",
+          "offset": 1024,
+          "kind": "instance"
+        },
+        {
+          "name": "sendReloadSignalFromServer",
+          "offset": 1028,
+          "kind": "instance"
+        },
+        {
+          "name": "aimSway",
+          "offset": 1032,
+          "kind": "instance"
+        },
+        {
+          "name": "aimSwaySpeed",
+          "offset": 1036,
+          "kind": "instance"
+        },
+        {
+          "name": "recoil",
+          "offset": 1040,
+          "kind": "instance"
+        },
+        {
+          "name": "aimconeCurve",
+          "offset": 1048,
+          "kind": "instance"
+        },
+        {
+          "name": "aimCone",
+          "offset": 1056,
+          "kind": "instance"
+        },
+        {
+          "name": "hipAimCone",
+          "offset": 1060,
+          "kind": "instance"
+        },
+        {
+          "name": "aimconePenaltyPerShot",
+          "offset": 1064,
+          "kind": "instance"
+        },
+        {
+          "name": "aimConePenaltyMax",
+          "offset": 1068,
+          "kind": "instance"
+        },
+        {
+          "name": "aimconePenaltyRecoverTime",
+          "offset": 1072,
+          "kind": "instance"
+        },
+        {
+          "name": "aimconePenaltyRecoverDelay",
+          "offset": 1076,
+          "kind": "instance"
+        },
+        {
+          "name": "stancePenaltyScale",
+          "offset": 1080,
+          "kind": "instance"
+        },
+        {
+          "name": "hasADS",
+          "offset": 1084,
+          "kind": "instance"
+        },
+        {
+          "name": "noAimingWhileCycling",
+          "offset": 1085,
+          "kind": "instance"
+        },
+        {
+          "name": "manualCycle",
+          "offset": 1086,
+          "kind": "instance"
+        },
+        {
+          "name": "CrosshairSettings",
+          "offset": 1088,
+          "kind": "instance"
+        },
+        {
+          "name": "isBurstWeapon",
+          "offset": 1095,
+          "kind": "instance"
+        },
+        {
+          "name": "canChangeFireModes",
+          "offset": 1096,
+          "kind": "instance"
+        },
+        {
+          "name": "defaultOn",
+          "offset": 1097,
+          "kind": "instance"
+        },
+        {
+          "name": "internalBurstRecoilScale",
+          "offset": 1100,
+          "kind": "instance"
+        },
+        {
+          "name": "internalBurstFireRateScale",
+          "offset": 1104,
+          "kind": "instance"
+        },
+        {
+          "name": "internalBurstAimConeScale",
+          "offset": 1108,
+          "kind": "instance"
+        },
+        {
+          "name": "resetDuration",
+          "offset": 1112,
+          "kind": "instance"
+        }
+      ]
+    },
+    "BaseViewModel": {
+      "name": "BaseViewModel",
+      "fields": [
+        {
+          "name": "lazyaimRegular",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "lazyaimIronsights",
+          "offset": 48,
+          "kind": "instance"
+        },
+        {
+          "name": "pivot",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "useViewModelCamera",
+          "offset": 64,
+          "kind": "instance"
+        },
+        {
+          "name": "allowSkinViewerInspection",
+          "offset": 65,
+          "kind": "instance"
+        },
+        {
+          "name": "wantsHeldItemFlags",
+          "offset": 66,
+          "kind": "instance"
+        },
+        {
+          "name": "hideSightMeshes",
+          "offset": 72,
+          "kind": "instance"
+        },
+        {
+          "name": "viewmodelType",
+          "offset": 80,
+          "kind": "instance"
+        },
+        {
+          "name": "createHandMesh",
+          "offset": 84,
+          "kind": "instance"
+        },
+        {
+          "name": "shouldOverridePosition",
+          "offset": 85,
+          "kind": "instance"
+        },
+        {
+          "name": "MuzzlePoint",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "charmAnchor",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "charmScale",
+          "offset": 104,
+          "kind": "instance"
+        },
+        {
+          "name": "useFlatBackCharm",
+          "offset": 108,
+          "kind": "instance"
+        },
+        {
+          "name": "usePushedOutCharm",
+          "offset": 109,
+          "kind": "instance"
+        },
+        {
+          "name": "subsurfaceProfile",
+          "offset": 112,
+          "kind": "instance"
+        },
+        {
+          "name": "baseSkinPieces",
+          "offset": 120,
+          "kind": "instance"
+        },
+        {
+          "name": "leftArmShieldHideCurve",
+          "offset": 128,
+          "kind": "instance"
+        },
+        {
+          "name": "punch",
+          "offset": 136,
+          "kind": "instance"
+        },
+        {
+          "name": "aspectOffset",
+          "offset": 144,
+          "kind": "instance"
+        },
+        {
+          "name": "lower",
+          "offset": 152,
+          "kind": "instance"
+        },
+        {
+          "name": "animator",
+          "offset": 200,
+          "kind": "instance"
+        },
+        {
+          "name": "bob",
+          "offset": 240,
+          "kind": "instance"
+        },
+        {
+          "name": "sway",
+          "offset": 264,
+          "kind": "instance"
+        }
+      ]
+    },
+    "BuildingBlock": {
+      "name": "BuildingBlock",
+      "fields": [
+        {
+          "name": "grade",
+          "offset": 856,
+          "kind": "instance"
+        },
+        {
+          "name": "CullBushes",
+          "offset": 896,
+          "kind": "instance"
+        },
+        {
+          "name": "CheckForPipesOnModelChange",
+          "offset": 897,
+          "kind": "instance"
+        },
+        {
+          "name": "AlternativePipeBounds",
+          "offset": 904,
+          "kind": "instance"
+        },
+        {
+          "name": "useCastNoClipChecks",
+          "offset": 912,
+          "kind": "instance"
+        },
+        {
+          "name": "wallpaperHealth",
+          "offset": 928,
+          "kind": "instance"
+        },
+        {
+          "name": "wallpaperRotation",
+          "offset": 932,
+          "kind": "instance"
+        },
+        {
+          "name": "wallpaperHealth2",
+          "offset": 944,
+          "kind": "instance"
+        },
+        {
+          "name": "wallpaperRotation2",
+          "offset": 948,
+          "kind": "instance"
+        },
+        {
+          "name": "wallpaperProtection",
+          "offset": 952,
+          "kind": "instance"
+        }
+      ]
+    },
+    "BuildingPrivlidge": {
+      "name": "BuildingPrivlidge",
+      "fields": [
+        {
+          "name": "assignDialog",
+          "offset": 1032,
+          "kind": "instance"
+        },
+        {
+          "name": "allowedConstructionItems",
+          "offset": 1048,
+          "kind": "instance"
+        },
+        {
+          "name": "IsInvisibleAuth",
+          "offset": 1056,
+          "kind": "instance"
+        }
+      ]
+    },
+    "Camera": {
+      "name": "Camera",
+      "fields": [
+        {
+          "name": "kMinAperture",
+          "offset": 0,
+          "kind": "static"
+        },
+        {
+          "name": "kMaxAperture",
+          "offset": 0,
+          "kind": "static"
+        },
+        {
+          "name": "kMinBladeCount",
+          "offset": 0,
+          "kind": "static"
+        },
+        {
+          "name": "kMaxBladeCount",
+          "offset": 0,
+          "kind": "static"
+        },
+        {
+          "name": "m_NonSerializedVersion",
+          "offset": 24,
+          "kind": "instance"
+        },
+        {
+          "name": "onPreCull",
+          "offset": 0,
+          "kind": "static"
+        },
+        {
+          "name": "onPreRender",
+          "offset": 8,
+          "kind": "static"
+        },
+        {
+          "name": "onPostRender",
+          "offset": 16,
+          "kind": "static"
+        }
+      ]
+    },
+    "Door": {
+      "name": "Door",
+      "fields": [
+        {
+          "name": "knockEffect",
+          "offset": 864,
+          "kind": "instance"
+        },
+        {
+          "name": "canTakeLock",
+          "offset": 872,
+          "kind": "instance"
+        },
+        {
+          "name": "hasHatch",
+          "offset": 873,
+          "kind": "instance"
+        },
+        {
+          "name": "canTakeCloser",
+          "offset": 874,
+          "kind": "instance"
+        },
+        {
+          "name": "canTakeKnocker",
+          "offset": 875,
+          "kind": "instance"
+        },
+        {
+          "name": "canNpcOpen",
+          "offset": 876,
+          "kind": "instance"
+        },
+        {
+          "name": "canHandOpen",
+          "offset": 877,
+          "kind": "instance"
+        },
+        {
+          "name": "isSecurityDoor",
+          "offset": 878,
+          "kind": "instance"
+        },
+        {
+          "name": "canReverseOpen",
+          "offset": 879,
+          "kind": "instance"
+        },
+        {
+          "name": "vehiclePhysBoxes",
+          "offset": 880,
+          "kind": "instance"
+        },
+        {
+          "name": "checkPhysBoxesOnOpen",
+          "offset": 888,
+          "kind": "instance"
+        },
+        {
+          "name": "vehicleCollisionSfx",
+          "offset": 896,
+          "kind": "instance"
+        },
+        {
+          "name": "BusyColliderRoots",
+          "offset": 904,
+          "kind": "instance"
+        },
+        {
+          "name": "ClosedColliderRoots",
+          "offset": 912,
+          "kind": "instance"
+        },
+        {
+          "name": "allowOnCargoShip",
+          "offset": 920,
+          "kind": "instance"
+        },
+        {
+          "name": "useCastNoClipChecks",
+          "offset": 921,
+          "kind": "instance"
+        },
+        {
+          "name": "UpgradeItems",
+          "offset": 928,
+          "kind": "instance"
+        },
+        {
+          "name": "UpgradeMenu",
+          "offset": 936,
+          "kind": "instance"
+        },
+        {
+          "name": "openAnimLength",
+          "offset": 968,
+          "kind": "instance"
+        },
+        {
+          "name": "closeAnimLength",
+          "offset": 972,
+          "kind": "instance"
+        },
+        {
+          "name": "NavMeshVolumeAnimals",
+          "offset": 984,
+          "kind": "instance"
+        },
+        {
+          "name": "NavMeshVolumeHumanoids",
+          "offset": 992,
+          "kind": "instance"
+        },
+        {
+          "name": "NpcTriggerBox",
+          "offset": 1000,
+          "kind": "instance"
+        },
+        {
+          "name": "NavMeshLink",
+          "offset": 1008,
+          "kind": "instance"
+        }
+      ]
+    },
+    "DroppedItem": {
+      "name": "DroppedItem",
+      "fields": [
+        {
+          "name": "itemModel",
+          "offset": 536,
+          "kind": "instance"
+        },
+        {
+          "name": "splashEffect",
+          "offset": 544,
+          "kind": "instance"
+        }
+      ]
+    },
+    "DroppedItemContainer": {
+      "name": "DroppedItemContainer",
+      "fields": [
+        {
+          "name": "lootPanelName",
+          "offset": 736,
+          "kind": "instance"
+        },
+        {
+          "name": "maxItemCount",
+          "offset": 744,
+          "kind": "instance"
+        },
+        {
+          "name": "ItemBasedDespawn",
+          "offset": 768,
+          "kind": "instance"
+        },
+        {
+          "name": "onlyOwnerLoot",
+          "offset": 769,
+          "kind": "instance"
+        },
+        {
+          "name": "buryLeftoverItems",
+          "offset": 770,
+          "kind": "instance"
+        },
+        {
+          "name": "openSound",
+          "offset": 776,
+          "kind": "instance"
+        },
+        {
+          "name": "closeSound",
+          "offset": 784,
+          "kind": "instance"
+        }
+      ]
+    },
+    "HeldEntity": {
+      "name": "HeldEntity",
+      "fields": [
+        {
+          "name": "worldModelAnimator",
+          "offset": 544,
+          "kind": "instance"
+        },
+        {
+          "name": "thirdPersonDeploySound",
+          "offset": 552,
+          "kind": "instance"
+        },
+        {
+          "name": "thirdPersonAimSound",
+          "offset": 560,
+          "kind": "instance"
+        },
+        {
+          "name": "thirdPersonAimEndSound",
+          "offset": 568,
+          "kind": "instance"
+        },
+        {
+          "name": "hideViewmodel",
+          "offset": 576,
+          "kind": "instance"
+        },
+        {
+          "name": "viewModel",
+          "offset": 600,
+          "kind": "instance"
+        },
+        {
+          "name": "handBone",
+          "offset": 616,
+          "kind": "instance"
+        },
+        {
+          "name": "HoldAnimationOverride",
+          "offset": 624,
+          "kind": "instance"
+        },
+        {
+          "name": "holdInfo",
+          "offset": 632,
+          "kind": "instance"
+        },
+        {
+          "name": "isBuildingTool",
+          "offset": 660,
+          "kind": "instance"
+        },
+        {
+          "name": "canBeUsedWithShield",
+          "offset": 661,
+          "kind": "instance"
+        },
+        {
+          "name": "ForwardSignalsFromPlayer",
+          "offset": 662,
+          "kind": "instance"
+        },
+        {
+          "name": "forcedOwner",
+          "offset": 664,
+          "kind": "instance"
+        },
+        {
+          "name": "useOwnerForward",
+          "offset": 672,
+          "kind": "instance"
+        },
+        {
+          "name": "CanSetLightsOn",
+          "offset": 673,
+          "kind": "instance"
+        },
+        {
+          "name": "holsterInfo",
+          "offset": 680,
+          "kind": "instance"
+        },
+        {
+          "name": "HeldCameraMode",
+          "offset": 688,
+          "kind": "instance"
+        },
+        {
+          "name": "hostileScore",
+          "offset": 692,
+          "kind": "instance"
+        },
+        {
+          "name": "FirstPersonArmOffset",
+          "offset": 696,
+          "kind": "instance"
+        },
+        {
+          "name": "FirstPersonArmRotation",
+          "offset": 708,
+          "kind": "instance"
+        },
+        {
+          "name": "FirstPersonRotationStrength",
+          "offset": 720,
+          "kind": "instance"
+        },
+        {
+          "name": "AttachmentAnchor",
+          "offset": 728,
+          "kind": "instance"
+        }
+      ]
+    },
+    "Item": {
+      "name": "Item",
+      "fields": [
+        {
+          "name": "type",
+          "offset": 16,
+          "kind": "instance"
+        },
+        {
+          "name": "data",
+          "offset": 24,
+          "kind": "instance"
+        }
+      ]
+    },
+    "Item_2": {
+      "name": "Item",
+      "fields": [
+        {
+          "name": "storage",
+          "offset": 16,
+          "kind": "instance"
+        },
+        {
+          "name": "isSet",
+          "offset": 24,
+          "kind": "instance"
+        }
+      ]
+    },
+    "Item_3": {
+      "name": "Item",
+      "fields": [
+        {
+          "name": "Pos",
+          "offset": 16,
+          "kind": "instance"
+        },
+        {
+          "name": "Rot",
+          "offset": 28,
+          "kind": "instance"
+        }
+      ]
+    },
+    "Item_4": {
+      "name": "Item",
+      "fields": [
+        {
+          "name": "Custom",
+          "offset": 16,
+          "kind": "instance"
+        },
+        {
+          "name": "Weight",
+          "offset": 24,
+          "kind": "instance"
+        }
+      ]
+    },
+    "Item_5": {
+      "name": "Item",
+      "fields": [
+        {
+          "name": "details",
+          "offset": 16,
+          "kind": "instance"
+        },
+        {
+          "name": "_id",
+          "offset": 160,
+          "kind": "instance"
+        },
+        {
+          "name": "_Title_k__BackingField",
+          "offset": 168,
+          "kind": "instance"
+        },
+        {
+          "name": "_Description_k__BackingField",
+          "offset": 176,
+          "kind": "instance"
+        },
+        {
+          "name": "_Tags_k__BackingField",
+          "offset": 184,
+          "kind": "instance"
+        },
+        {
+          "name": "_KeyValueTags_k__BackingField",
+          "offset": 192,
+          "kind": "instance"
+        },
+        {
+          "name": "Children",
+          "offset": 200,
+          "kind": "instance"
+        },
+        {
+          "name": "_AdditionalPreviews_k__BackingField",
+          "offset": 208,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumSubscriptions_k__BackingField",
+          "offset": 216,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumFavorites_k__BackingField",
+          "offset": 224,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumFollowers_k__BackingField",
+          "offset": 232,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumUniqueSubscriptions_k__BackingField",
+          "offset": 240,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumUniqueFavorites_k__BackingField",
+          "offset": 248,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumUniqueFollowers_k__BackingField",
+          "offset": 256,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumUniqueWebsiteViews_k__BackingField",
+          "offset": 264,
+          "kind": "instance"
+        },
+        {
+          "name": "_ReportScore_k__BackingField",
+          "offset": 272,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumSecondsPlayed_k__BackingField",
+          "offset": 280,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumPlaytimeSessions_k__BackingField",
+          "offset": 288,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumComments_k__BackingField",
+          "offset": 296,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumSecondsPlayedDuringTimePeriod_k__BackingField",
+          "offset": 304,
+          "kind": "instance"
+        },
+        {
+          "name": "_NumPlaytimeSessionsDuringTimePeriod_k__BackingField",
+          "offset": 312,
+          "kind": "instance"
+        },
+        {
+          "name": "_PreviewImageUrl_k__BackingField",
+          "offset": 320,
+          "kind": "instance"
+        },
+        {
+          "name": "_Metadata_k__BackingField",
+          "offset": 328,
+          "kind": "instance"
+        }
+      ]
+    },
+    "ItemDefinition": {
+      "name": "ItemDefinition",
+      "fields": [
+        {
+          "name": "itemid",
+          "offset": 32,
+          "kind": "instance"
+        },
+        {
+          "name": "shortname",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "era",
+          "offset": 48,
+          "kind": "instance"
+        },
+        {
+          "name": "eraRestrictions",
+          "offset": 52,
+          "kind": "instance"
+        },
+        {
+          "name": "lootDistributionType",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "displayName",
+          "offset": 64,
+          "kind": "instance"
+        },
+        {
+          "name": "displayDescription",
+          "offset": 72,
+          "kind": "instance"
+        },
+        {
+          "name": "iconSprite",
+          "offset": 80,
+          "kind": "instance"
+        },
+        {
+          "name": "category",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "selectionPanel",
+          "offset": 92,
+          "kind": "instance"
+        },
+        {
+          "name": "vehicleItem",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "vehicleCategory",
+          "offset": 100,
+          "kind": "instance"
+        },
+        {
+          "name": "maxDraggable",
+          "offset": 104,
+          "kind": "instance"
+        },
+        {
+          "name": "itemType",
+          "offset": 108,
+          "kind": "instance"
+        },
+        {
+          "name": "amountType",
+          "offset": 112,
+          "kind": "instance"
+        },
+        {
+          "name": "occupySlots",
+          "offset": 116,
+          "kind": "instance"
+        },
+        {
+          "name": "stackable",
+          "offset": 120,
+          "kind": "instance"
+        },
+        {
+          "name": "volume",
+          "offset": 124,
+          "kind": "instance"
+        },
+        {
+          "name": "baseRadioactivity",
+          "offset": 128,
+          "kind": "instance"
+        },
+        {
+          "name": "quickDespawn",
+          "offset": 136,
+          "kind": "instance"
+        },
+        {
+          "name": "blockStealingInSafeZone",
+          "offset": 137,
+          "kind": "instance"
+        },
+        {
+          "name": "allowBurying",
+          "offset": 138,
+          "kind": "instance"
+        },
+        {
+          "name": "tutorialAllowance",
+          "offset": 140,
+          "kind": "instance"
+        },
+        {
+          "name": "supportsStackableOwnership",
+          "offset": 144,
+          "kind": "instance"
+        },
+        {
+          "name": "rarity",
+          "offset": 148,
+          "kind": "instance"
+        },
+        {
+          "name": "despawnRarity",
+          "offset": 152,
+          "kind": "instance"
+        },
+        {
+          "name": "spawnAsBlueprint",
+          "offset": 156,
+          "kind": "instance"
+        },
+        {
+          "name": "inventoryGrabSound",
+          "offset": 160,
+          "kind": "instance"
+        },
+        {
+          "name": "inventoryDropSound",
+          "offset": 168,
+          "kind": "instance"
+        },
+        {
+          "name": "physImpactSoundDef",
+          "offset": 176,
+          "kind": "instance"
+        },
+        {
+          "name": "condition",
+          "offset": 184,
+          "kind": "instance"
+        },
+        {
+          "name": "hidden",
+          "offset": 224,
+          "kind": "instance"
+        },
+        {
+          "name": "flags",
+          "offset": 228,
+          "kind": "instance"
+        },
+        {
+          "name": "hideSelectedPanel",
+          "offset": 232,
+          "kind": "instance"
+        },
+        {
+          "name": "steamItem",
+          "offset": 240,
+          "kind": "instance"
+        },
+        {
+          "name": "steamDlc",
+          "offset": 248,
+          "kind": "instance"
+        },
+        {
+          "name": "supportsAccessories",
+          "offset": 256,
+          "kind": "instance"
+        },
+        {
+          "name": "Parent",
+          "offset": 264,
+          "kind": "instance"
+        },
+        {
+          "name": "worldModelPrefab",
+          "offset": 272,
+          "kind": "instance"
+        },
+        {
+          "name": "worldModelOverrides",
+          "offset": 280,
+          "kind": "instance"
+        },
+        {
+          "name": "treatAsComponentForRepairs",
+          "offset": 288,
+          "kind": "instance"
+        },
+        {
+          "name": "AlignWorldModelOnDrop",
+          "offset": 289,
+          "kind": "instance"
+        },
+        {
+          "name": "WorldModelDropOffset",
+          "offset": 292,
+          "kind": "instance"
+        },
+        {
+          "name": "AdjustCenterOfMassOnDrop",
+          "offset": 304,
+          "kind": "instance"
+        },
+        {
+          "name": "DropCenterOfMass",
+          "offset": 308,
+          "kind": "instance"
+        },
+        {
+          "name": "inheritSkinsFrom",
+          "offset": 320,
+          "kind": "instance"
+        },
+        {
+          "name": "isRedirectOf",
+          "offset": 328,
+          "kind": "instance"
+        },
+        {
+          "name": "redirectVendingBehaviour",
+          "offset": 336,
+          "kind": "instance"
+        },
+        {
+          "name": "Traits",
+          "offset": 352,
+          "kind": "instance"
+        },
+        {
+          "name": "skins",
+          "offset": 360,
+          "kind": "instance"
+        },
+        {
+          "name": "panel",
+          "offset": 384,
+          "kind": "instance"
+        }
+      ]
+    },
+    "ItemModProjectile": {
+      "name": "ItemModProjectile",
+      "fields": [
+        {
+          "name": "projectileObject",
+          "offset": 32,
+          "kind": "instance"
+        },
+        {
+          "name": "mods",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "ammoType",
+          "offset": 48,
+          "kind": "instance"
+        },
+        {
+          "name": "ammoSubType",
+          "offset": 52,
+          "kind": "instance"
+        },
+        {
+          "name": "numProjectiles",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "projectileSpread",
+          "offset": 60,
+          "kind": "instance"
+        },
+        {
+          "name": "projectileVelocity",
+          "offset": 64,
+          "kind": "instance"
+        },
+        {
+          "name": "projectileVelocitySpread",
+          "offset": 68,
+          "kind": "instance"
+        },
+        {
+          "name": "useCurve",
+          "offset": 72,
+          "kind": "instance"
+        },
+        {
+          "name": "spreadScalar",
+          "offset": 80,
+          "kind": "instance"
+        },
+        {
+          "name": "attackEffectOverride",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "barrelConditionLoss",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "category",
+          "offset": 104,
+          "kind": "instance"
+        },
+        {
+          "name": "SkinOverrides",
+          "offset": 112,
+          "kind": "instance"
+        }
+      ]
+    },
+    "LootContainer": {
+      "name": "LootContainer",
+      "fields": [
+        {
+          "name": "destroyOnEmpty",
+          "offset": 944,
+          "kind": "instance"
+        },
+        {
+          "name": "lootDefinition",
+          "offset": 952,
+          "kind": "instance"
+        },
+        {
+          "name": "maxDefinitionsToSpawn",
+          "offset": 960,
+          "kind": "instance"
+        },
+        {
+          "name": "minSecondsBetweenRefresh",
+          "offset": 964,
+          "kind": "instance"
+        },
+        {
+          "name": "maxSecondsBetweenRefresh",
+          "offset": 968,
+          "kind": "instance"
+        },
+        {
+          "name": "initialLootSpawn",
+          "offset": 972,
+          "kind": "instance"
+        },
+        {
+          "name": "xpLootedScale",
+          "offset": 976,
+          "kind": "instance"
+        },
+        {
+          "name": "xpDestroyedScale",
+          "offset": 980,
+          "kind": "instance"
+        },
+        {
+          "name": "BlockPlayerItemInput",
+          "offset": 984,
+          "kind": "instance"
+        },
+        {
+          "name": "scrapAmount",
+          "offset": 988,
+          "kind": "instance"
+        },
+        {
+          "name": "deathStat",
+          "offset": 992,
+          "kind": "instance"
+        },
+        {
+          "name": "LootSpawnSlots",
+          "offset": 1000,
+          "kind": "instance"
+        },
+        {
+          "name": "SpawnType",
+          "offset": 1008,
+          "kind": "instance"
+        },
+        {
+          "name": "clanScoreEventForFirstLooter",
+          "offset": 1012,
+          "kind": "instance"
+        }
+      ]
+    },
+    "LootableCorpse": {
+      "name": "LootableCorpse",
+      "fields": [
+        {
+          "name": "lootPanelName",
+          "offset": 800,
+          "kind": "instance"
+        }
+      ]
+    },
+    "MainCamera": {
+      "name": "MainCamera",
+      "fields": [
+        {
+          "name": "mainCamera",
+          "offset": 184,
+          "kind": "static"
+        }
+      ]
+    },
+    "PlayerEyes": {
+      "name": "PlayerEyes",
+      "fields": [
+        {
+          "name": "thirdPersonSleepingOffset",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "defaultLazyAim",
+          "offset": 56,
+          "kind": "instance"
+        }
+      ]
+    },
+    "PlayerInput": {
+      "name": "PlayerInput",
+      "fields": [
+        {
+          "name": "state",
+          "offset": 40,
+          "kind": "instance"
+        }
+      ]
+    },
+    "PlayerInput_2": {
+      "name": "PlayerInput",
+      "fields": [
+        {
+          "name": "DeviceLostMessage",
+          "offset": 0,
+          "kind": "static"
+        },
+        {
+          "name": "DeviceRegainedMessage",
+          "offset": 0,
+          "kind": "static"
+        },
+        {
+          "name": "ControlsChangedMessage",
+          "offset": 0,
+          "kind": "static"
+        },
+        {
+          "name": "m_AllMapsHashCode",
+          "offset": 32,
+          "kind": "instance"
+        },
+        {
+          "name": "m_Actions",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "m_NotificationBehavior",
+          "offset": 48,
+          "kind": "instance"
+        },
+        {
+          "name": "m_UIInputModule",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "m_DeviceLostEvent",
+          "offset": 64,
+          "kind": "instance"
+        },
+        {
+          "name": "m_DeviceRegainedEvent",
+          "offset": 72,
+          "kind": "instance"
+        },
+        {
+          "name": "m_ControlsChangedEvent",
+          "offset": 80,
+          "kind": "instance"
+        },
+        {
+          "name": "m_ActionEvents",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "m_NeverAutoSwitchControlSchemes",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "m_DefaultControlScheme",
+          "offset": 104,
+          "kind": "instance"
+        },
+        {
+          "name": "m_DefaultActionMap",
+          "offset": 112,
+          "kind": "instance"
+        },
+        {
+          "name": "m_SplitScreenIndex",
+          "offset": 120,
+          "kind": "instance"
+        },
+        {
+          "name": "m_Camera",
+          "offset": 128,
+          "kind": "instance"
+        },
+        {
+          "name": "m_InputValueObject",
+          "offset": 136,
+          "kind": "instance"
+        },
+        {
+          "name": "m_CurrentActionMap",
+          "offset": 144,
+          "kind": "instance"
+        },
+        {
+          "name": "m_PlayerIndex",
+          "offset": 152,
+          "kind": "instance"
+        },
+        {
+          "name": "m_InputActive",
+          "offset": 156,
+          "kind": "instance"
+        },
+        {
+          "name": "m_Enabled",
+          "offset": 157,
+          "kind": "instance"
+        },
+        {
+          "name": "m_ActionsInitialized",
+          "offset": 158,
+          "kind": "instance"
+        },
+        {
+          "name": "m_ActionMessageNames",
+          "offset": 160,
+          "kind": "instance"
+        },
+        {
+          "name": "m_InputUser",
+          "offset": 168,
+          "kind": "instance"
+        },
+        {
+          "name": "m_ActionTriggeredDelegate",
+          "offset": 176,
+          "kind": "instance"
+        },
+        {
+          "name": "m_DeviceLostCallbacks",
+          "offset": 184,
+          "kind": "instance"
+        },
+        {
+          "name": "m_DeviceRegainedCallbacks",
+          "offset": 264,
+          "kind": "instance"
+        },
+        {
+          "name": "m_ControlsChangedCallbacks",
+          "offset": 344,
+          "kind": "instance"
+        },
+        {
+          "name": "m_ActionTriggeredCallbacks",
+          "offset": 424,
+          "kind": "instance"
+        },
+        {
+          "name": "m_UnpairedDeviceUsedDelegate",
+          "offset": 504,
+          "kind": "instance"
+        },
+        {
+          "name": "m_PreFilterUnpairedDeviceUsedDelegate",
+          "offset": 512,
+          "kind": "instance"
+        },
+        {
+          "name": "m_OnUnpairedDeviceUsedHooked",
+          "offset": 520,
+          "kind": "instance"
+        },
+        {
+          "name": "m_DeviceChangeDelegate",
+          "offset": 528,
+          "kind": "instance"
+        },
+        {
+          "name": "m_OnDeviceChangeHooked",
+          "offset": 536,
+          "kind": "instance"
+        },
+        {
+          "name": "s_AllActivePlayersCount",
+          "offset": 0,
+          "kind": "static"
+        },
+        {
+          "name": "s_AllActivePlayers",
+          "offset": 8,
+          "kind": "static"
+        },
+        {
+          "name": "s_UserChangeDelegate",
+          "offset": 16,
+          "kind": "static"
+        },
+        {
+          "name": "s_InitPairWithDevicesCount",
+          "offset": 24,
+          "kind": "static"
+        },
+        {
+          "name": "s_InitPairWithDevices",
+          "offset": 32,
+          "kind": "static"
+        },
+        {
+          "name": "s_InitPlayerIndex",
+          "offset": 40,
+          "kind": "static"
+        },
+        {
+          "name": "s_InitSplitScreenIndex",
+          "offset": 44,
+          "kind": "static"
+        },
+        {
+          "name": "s_InitControlScheme",
+          "offset": 48,
+          "kind": "static"
+        },
+        {
+          "name": "s_DestroyIfDeviceSetupUnsuccessful",
+          "offset": 56,
+          "kind": "static"
+        }
+      ]
+    },
+    "PlayerInventory": {
+      "name": "PlayerInventory",
+      "fields": [
+        {
+          "name": "containerBelt",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "crafting",
+          "offset": 64,
+          "kind": "instance"
+        },
+        {
+          "name": "loot",
+          "offset": 72,
+          "kind": "instance"
+        },
+        {
+          "name": "inventoryRadioactivity",
+          "offset": 80,
+          "kind": "instance"
+        },
+        {
+          "name": "containsRadioactiveItems",
+          "offset": 84,
+          "kind": "instance"
+        },
+        {
+          "name": "containerWear",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "containerMain",
+          "offset": 120,
+          "kind": "instance"
+        }
+      ]
+    },
+    "PlayerModel": {
+      "name": "PlayerModel",
+      "fields": [
+        {
+          "name": "Shoulders",
+          "offset": 152,
+          "kind": "instance"
+        },
+        {
+          "name": "AdditionalSpineBones",
+          "offset": 160,
+          "kind": "instance"
+        },
+        {
+          "name": "_multiMesh",
+          "offset": 184,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnAimSmoothTime",
+          "offset": 208,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnHead",
+          "offset": 212,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnChest",
+          "offset": 228,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnSpine",
+          "offset": 244,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnPelvis",
+          "offset": 260,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnChestLowerShare",
+          "offset": 276,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnSpineLowerShare",
+          "offset": 280,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnHeadLockAngle",
+          "offset": 284,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnHeadSmoothTime",
+          "offset": 288,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnHeadMaxSpeed",
+          "offset": 292,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnHeadAimFadeSpeed",
+          "offset": 296,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnClips",
+          "offset": 304,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnSpeedByBacklog",
+          "offset": 312,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnMoveThreshold",
+          "offset": 320,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnSuppressProceduralLegs",
+          "offset": 324,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnLegBlendTime",
+          "offset": 328,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnPelvisEnabled",
+          "offset": 332,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnPelvisFootPinWeight",
+          "offset": 336,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnArmFadeSpeed",
+          "offset": 340,
+          "kind": "instance"
+        },
+        {
+          "name": "TurnArmFadeWeight",
+          "offset": 344,
+          "kind": "instance"
+        },
+        {
+          "name": "collision",
+          "offset": 528,
+          "kind": "instance"
+        },
+        {
+          "name": "censorshipCube",
+          "offset": 536,
+          "kind": "instance"
+        },
+        {
+          "name": "censorshipCubeBreasts",
+          "offset": 544,
+          "kind": "instance"
+        },
+        {
+          "name": "jawBone",
+          "offset": 552,
+          "kind": "instance"
+        },
+        {
+          "name": "neckBone",
+          "offset": 560,
+          "kind": "instance"
+        },
+        {
+          "name": "headBone",
+          "offset": 568,
+          "kind": "instance"
+        },
+        {
+          "name": "leftEye",
+          "offset": 576,
+          "kind": "instance"
+        },
+        {
+          "name": "rightEye",
+          "offset": 584,
+          "kind": "instance"
+        },
+        {
+          "name": "eyeController",
+          "offset": 592,
+          "kind": "instance"
+        },
+        {
+          "name": "blinkController",
+          "offset": 600,
+          "kind": "instance"
+        },
+        {
+          "name": "SpineBones",
+          "offset": 608,
+          "kind": "instance"
+        },
+        {
+          "name": "leftFootBone",
+          "offset": 616,
+          "kind": "instance"
+        },
+        {
+          "name": "rightFootBone",
+          "offset": 624,
+          "kind": "instance"
+        },
+        {
+          "name": "leftHandPropBone",
+          "offset": 632,
+          "kind": "instance"
+        },
+        {
+          "name": "rightHandPropBone",
+          "offset": 640,
+          "kind": "instance"
+        },
+        {
+          "name": "rightHandTarget",
+          "offset": 648,
+          "kind": "instance"
+        },
+        {
+          "name": "leftClavicleBone",
+          "offset": 664,
+          "kind": "instance"
+        },
+        {
+          "name": "isPreview",
+          "offset": 672,
+          "kind": "instance"
+        },
+        {
+          "name": "leftHandTargetPosition",
+          "offset": 676,
+          "kind": "instance"
+        },
+        {
+          "name": "leftHandTargetRotation",
+          "offset": 688,
+          "kind": "instance"
+        },
+        {
+          "name": "rightHandTargetPosition",
+          "offset": 704,
+          "kind": "instance"
+        },
+        {
+          "name": "rightHandTargetRotation",
+          "offset": 716,
+          "kind": "instance"
+        },
+        {
+          "name": "leftUlnaTwistBone",
+          "offset": 736,
+          "kind": "instance"
+        },
+        {
+          "name": "rightUlnaTwistBone",
+          "offset": 744,
+          "kind": "instance"
+        },
+        {
+          "name": "leftHandTwistRelaxWeight",
+          "offset": 752,
+          "kind": "instance"
+        },
+        {
+          "name": "rightHandTwistRelaxWeight",
+          "offset": 756,
+          "kind": "instance"
+        },
+        {
+          "name": "TwistBones",
+          "offset": 760,
+          "kind": "instance"
+        },
+        {
+          "name": "steeringTargetDegrees",
+          "offset": 768,
+          "kind": "instance"
+        },
+        {
+          "name": "playerBoatSteeringTargetDegrees",
+          "offset": 772,
+          "kind": "instance"
+        },
+        {
+          "name": "rightFootTargetPosition",
+          "offset": 776,
+          "kind": "instance"
+        },
+        {
+          "name": "rightFootTargetRotation",
+          "offset": 788,
+          "kind": "instance"
+        },
+        {
+          "name": "leftFootTargetPosition",
+          "offset": 804,
+          "kind": "instance"
+        },
+        {
+          "name": "leftFootTargetRotation",
+          "offset": 816,
+          "kind": "instance"
+        },
+        {
+          "name": "legsAnimator",
+          "offset": 832,
+          "kind": "instance"
+        },
+        {
+          "name": "upperBodyMask",
+          "offset": 840,
+          "kind": "instance"
+        },
+        {
+          "name": "fullMask",
+          "offset": 848,
+          "kind": "instance"
+        },
+        {
+          "name": "CinematicAnimationController",
+          "offset": 856,
+          "kind": "instance"
+        },
+        {
+          "name": "DefaultAvatar",
+          "offset": 864,
+          "kind": "instance"
+        },
+        {
+          "name": "CinematicAvatar",
+          "offset": 872,
+          "kind": "instance"
+        },
+        {
+          "name": "DefaultHoldType",
+          "offset": 880,
+          "kind": "instance"
+        },
+        {
+          "name": "SleepGesture",
+          "offset": 888,
+          "kind": "instance"
+        },
+        {
+          "name": "CrawlToIncapacitatedGesture",
+          "offset": 896,
+          "kind": "instance"
+        },
+        {
+          "name": "CrawlToIncapacitatedGestureHandcuff",
+          "offset": 904,
+          "kind": "instance"
+        },
+        {
+          "name": "StandToIncapacitatedGesture",
+          "offset": 912,
+          "kind": "instance"
+        },
+        {
+          "name": "MaleSkin",
+          "offset": 928,
+          "kind": "instance"
+        },
+        {
+          "name": "FemaleSkin",
+          "offset": 936,
+          "kind": "instance"
+        },
+        {
+          "name": "MannequinSkin",
+          "offset": 944,
+          "kind": "instance"
+        },
+        {
+          "name": "subsurfaceProfile",
+          "offset": 952,
+          "kind": "instance"
+        },
+        {
+          "name": "voiceVolume",
+          "offset": 960,
+          "kind": "instance"
+        },
+        {
+          "name": "skinColor",
+          "offset": 964,
+          "kind": "instance"
+        },
+        {
+          "name": "skinNumber",
+          "offset": 968,
+          "kind": "instance"
+        },
+        {
+          "name": "meshNumber",
+          "offset": 972,
+          "kind": "instance"
+        },
+        {
+          "name": "meshSubNumber",
+          "offset": 976,
+          "kind": "instance"
+        },
+        {
+          "name": "hairNumber",
+          "offset": 980,
+          "kind": "instance"
+        },
+        {
+          "name": "dyeNumber",
+          "offset": 984,
+          "kind": "instance"
+        },
+        {
+          "name": "skinType",
+          "offset": 988,
+          "kind": "instance"
+        },
+        {
+          "name": "mouthFlapPosRange",
+          "offset": 992,
+          "kind": "instance"
+        },
+        {
+          "name": "mouthFlapRotRange",
+          "offset": 996,
+          "kind": "instance"
+        },
+        {
+          "name": "mouthSidePosRange",
+          "offset": 1000,
+          "kind": "instance"
+        },
+        {
+          "name": "mouthSideFrequency",
+          "offset": 1004,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmMotionWeight",
+          "offset": 1008,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmGravity",
+          "offset": 1012,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmGravityByPitch",
+          "offset": 1016,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmStiffness",
+          "offset": 1024,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmDamping",
+          "offset": 1028,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmMotionSpeedLimit",
+          "offset": 1032,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmFlexAngle",
+          "offset": 1036,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmFlexByPitch",
+          "offset": 1040,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmSpinFadeStart",
+          "offset": 1048,
+          "kind": "instance"
+        },
+        {
+          "name": "ArmSpinFadeEnd",
+          "offset": 1052,
+          "kind": "instance"
+        },
+        {
+          "name": "SpineLookUpLimit",
+          "offset": 1056,
+          "kind": "instance"
+        },
+        {
+          "name": "SpineTwistClamp",
+          "offset": 1060,
+          "kind": "instance"
+        },
+        {
+          "name": "SpineHeadLookWeightVertical",
+          "offset": 1064,
+          "kind": "instance"
+        },
+        {
+          "name": "HeadYawLimit",
+          "offset": 1068,
+          "kind": "instance"
+        },
+        {
+          "name": "SpineLowerFollow",
+          "offset": 1072,
+          "kind": "instance"
+        },
+        {
+          "name": "SpineFollowSmoothSpeed",
+          "offset": 1076,
+          "kind": "instance"
+        },
+        {
+          "name": "movementSounds",
+          "offset": 1080,
+          "kind": "instance"
+        },
+        {
+          "name": "showSash",
+          "offset": 1088,
+          "kind": "instance"
+        },
+        {
+          "name": "tempPoseType",
+          "offset": 1092,
+          "kind": "instance"
+        },
+        {
+          "name": "underwearSkin",
+          "offset": 1096,
+          "kind": "instance"
+        }
+      ]
+    },
+    "PlayerWalkMovement": {
+      "name": "PlayerWalkMovement",
+      "fields": [
+        {
+          "name": "zeroFrictionMaterial",
+          "offset": 104,
+          "kind": "instance"
+        },
+        {
+          "name": "highFrictionMaterial",
+          "offset": 112,
+          "kind": "instance"
+        }
+      ]
+    },
+    "Projectile": {
+      "name": "Projectile",
+      "fields": [
+        {
+          "name": "initialVelocity",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "drag",
+          "offset": 52,
+          "kind": "instance"
+        },
+        {
+          "name": "gravityModifier",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "thickness",
+          "offset": 60,
+          "kind": "instance"
+        },
+        {
+          "name": "changeInitialOrientation",
+          "offset": 64,
+          "kind": "instance"
+        },
+        {
+          "name": "initialDistance",
+          "offset": 68,
+          "kind": "instance"
+        },
+        {
+          "name": "initialOrientation",
+          "offset": 72,
+          "kind": "instance"
+        },
+        {
+          "name": "remainInWorld",
+          "offset": 84,
+          "kind": "instance"
+        },
+        {
+          "name": "stickProbability",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "breakProbability",
+          "offset": 92,
+          "kind": "instance"
+        },
+        {
+          "name": "conditionLoss",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "ricochetChance",
+          "offset": 100,
+          "kind": "instance"
+        },
+        {
+          "name": "penetrationPower",
+          "offset": 104,
+          "kind": "instance"
+        },
+        {
+          "name": "canRefract",
+          "offset": 108,
+          "kind": "instance"
+        },
+        {
+          "name": "penetratesVehicles",
+          "offset": 109,
+          "kind": "instance"
+        },
+        {
+          "name": "waterIntegrityLoss",
+          "offset": 112,
+          "kind": "instance"
+        },
+        {
+          "name": "damageProperties",
+          "offset": 120,
+          "kind": "instance"
+        },
+        {
+          "name": "damageDistances",
+          "offset": 128,
+          "kind": "instance"
+        },
+        {
+          "name": "damageMultipliers",
+          "offset": 136,
+          "kind": "instance"
+        },
+        {
+          "name": "damageTypes",
+          "offset": 144,
+          "kind": "instance"
+        },
+        {
+          "name": "rendererToScale",
+          "offset": 152,
+          "kind": "instance"
+        },
+        {
+          "name": "firstPersonRenderer",
+          "offset": 160,
+          "kind": "instance"
+        },
+        {
+          "name": "createDecals",
+          "offset": 168,
+          "kind": "instance"
+        },
+        {
+          "name": "doHitEffects",
+          "offset": 169,
+          "kind": "instance"
+        },
+        {
+          "name": "flybySound",
+          "offset": 176,
+          "kind": "instance"
+        },
+        {
+          "name": "flybySoundDistance",
+          "offset": 184,
+          "kind": "instance"
+        },
+        {
+          "name": "closeFlybySound",
+          "offset": 192,
+          "kind": "instance"
+        },
+        {
+          "name": "closeFlybyDistance",
+          "offset": 200,
+          "kind": "instance"
+        },
+        {
+          "name": "tumbleSpeed",
+          "offset": 204,
+          "kind": "instance"
+        },
+        {
+          "name": "tumbleAxis",
+          "offset": 208,
+          "kind": "instance"
+        },
+        {
+          "name": "playDefaultHitEffects",
+          "offset": 220,
+          "kind": "instance"
+        },
+        {
+          "name": "clientEffectData",
+          "offset": 224,
+          "kind": "instance"
+        },
+        {
+          "name": "clientEffectPrefab",
+          "offset": 232,
+          "kind": "instance"
+        },
+        {
+          "name": "swimScale",
+          "offset": 240,
+          "kind": "instance"
+        },
+        {
+          "name": "swimSpeed",
+          "offset": 252,
+          "kind": "instance"
+        }
+      ]
+    },
+    "ProjectileWeaponMod": {
+      "name": "ProjectileWeaponMod",
+      "fields": [
+        {
+          "name": "ConditionLossMultiplier",
+          "offset": 520,
+          "kind": "instance"
+        },
+        {
+          "name": "additiveEffect",
+          "offset": 528,
+          "kind": "instance"
+        },
+        {
+          "name": "defaultSilencerEffect",
+          "offset": 536,
+          "kind": "instance"
+        },
+        {
+          "name": "isSilencer",
+          "offset": 544,
+          "kind": "instance"
+        },
+        {
+          "name": "silencerType",
+          "offset": 548,
+          "kind": "instance"
+        },
+        {
+          "name": "repeatDelay",
+          "offset": 552,
+          "kind": "instance"
+        },
+        {
+          "name": "projectileVelocity",
+          "offset": 564,
+          "kind": "instance"
+        },
+        {
+          "name": "projectileDamage",
+          "offset": 576,
+          "kind": "instance"
+        },
+        {
+          "name": "projectileDistance",
+          "offset": 588,
+          "kind": "instance"
+        },
+        {
+          "name": "aimsway",
+          "offset": 600,
+          "kind": "instance"
+        },
+        {
+          "name": "aimswaySpeed",
+          "offset": 612,
+          "kind": "instance"
+        },
+        {
+          "name": "recoil",
+          "offset": 624,
+          "kind": "instance"
+        },
+        {
+          "name": "sightAimCone",
+          "offset": 636,
+          "kind": "instance"
+        },
+        {
+          "name": "hipAimCone",
+          "offset": 648,
+          "kind": "instance"
+        },
+        {
+          "name": "isLight",
+          "offset": 660,
+          "kind": "instance"
+        },
+        {
+          "name": "isMuzzleBrake",
+          "offset": 661,
+          "kind": "instance"
+        },
+        {
+          "name": "isMuzzleBoost",
+          "offset": 662,
+          "kind": "instance"
+        },
+        {
+          "name": "isScope",
+          "offset": 663,
+          "kind": "instance"
+        },
+        {
+          "name": "zoomAmountDisplayOnly",
+          "offset": 664,
+          "kind": "instance"
+        },
+        {
+          "name": "magazineCapacity",
+          "offset": 668,
+          "kind": "instance"
+        },
+        {
+          "name": "needsOnForEffects",
+          "offset": 680,
+          "kind": "instance"
+        },
+        {
+          "name": "burstCount",
+          "offset": 684,
+          "kind": "instance"
+        },
+        {
+          "name": "timeBetweenBursts",
+          "offset": 688,
+          "kind": "instance"
+        },
+        {
+          "name": "zoomLevels",
+          "offset": 696,
+          "kind": "instance"
+        },
+        {
+          "name": "fovChangeEffect",
+          "offset": 704,
+          "kind": "instance"
+        },
+        {
+          "name": "allowPings",
+          "offset": 712,
+          "kind": "instance"
+        }
+      ]
+    },
+    "Signage": {
+      "name": "Signage",
+      "fields": [
+        {
+          "name": "changeTextDialog",
+          "offset": 864,
+          "kind": "instance"
+        },
+        {
+          "name": "paintableSources",
+          "offset": 872,
+          "kind": "instance"
+        },
+        {
+          "name": "overrideMaxImageWidth",
+          "offset": 880,
+          "kind": "instance"
+        },
+        {
+          "name": "overrideMaxImageHeight",
+          "offset": 884,
+          "kind": "instance"
+        },
+        {
+          "name": "RequiredHeldEntity",
+          "offset": 912,
+          "kind": "instance"
+        },
+        {
+          "name": "showIODisplayName",
+          "offset": 936,
+          "kind": "instance"
+        }
+      ]
+    },
+    "SkinnedMultiMesh": {
+      "name": "SkinnedMultiMesh",
+      "fields": [
+        {
+          "name": "shadowOnly",
+          "offset": 32,
+          "kind": "instance"
+        },
+        {
+          "name": "eyesView",
+          "offset": 34,
+          "kind": "instance"
+        },
+        {
+          "name": "skeleton",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "skeletonSkinLod",
+          "offset": 48,
+          "kind": "instance"
+        },
+        {
+          "name": "Renderers",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "skinNumber",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "meshNumber",
+          "offset": 100,
+          "kind": "instance"
+        },
+        {
+          "name": "meshSubNumber",
+          "offset": 104,
+          "kind": "instance"
+        },
+        {
+          "name": "hairNumber",
+          "offset": 108,
+          "kind": "instance"
+        },
+        {
+          "name": "dyeNumber",
+          "offset": 112,
+          "kind": "instance"
+        },
+        {
+          "name": "skinType",
+          "offset": 116,
+          "kind": "instance"
+        },
+        {
+          "name": "SkinCollection",
+          "offset": 120,
+          "kind": "instance"
+        }
+      ]
+    },
+    "StorageContainer": {
+      "name": "StorageContainer",
+      "fields": [
+        {
+          "name": "inventorySlots",
+          "offset": 808,
+          "kind": "instance"
+        },
+        {
+          "name": "dropsLoot",
+          "offset": 812,
+          "kind": "instance"
+        },
+        {
+          "name": "dropLootDestroyPercent",
+          "offset": 816,
+          "kind": "instance"
+        },
+        {
+          "name": "dropFloats",
+          "offset": 820,
+          "kind": "instance"
+        },
+        {
+          "name": "isLootable",
+          "offset": 821,
+          "kind": "instance"
+        },
+        {
+          "name": "isLockable",
+          "offset": 822,
+          "kind": "instance"
+        },
+        {
+          "name": "isMonitorable",
+          "offset": 823,
+          "kind": "instance"
+        },
+        {
+          "name": "panelName",
+          "offset": 824,
+          "kind": "instance"
+        },
+        {
+          "name": "panelTitle",
+          "offset": 832,
+          "kind": "instance"
+        },
+        {
+          "name": "allowedContents",
+          "offset": 840,
+          "kind": "instance"
+        },
+        {
+          "name": "allowedItem",
+          "offset": 848,
+          "kind": "instance"
+        },
+        {
+          "name": "allowedItem2",
+          "offset": 856,
+          "kind": "instance"
+        },
+        {
+          "name": "allowedItems",
+          "offset": 864,
+          "kind": "instance"
+        },
+        {
+          "name": "blockedItems",
+          "offset": 872,
+          "kind": "instance"
+        },
+        {
+          "name": "maxStackSize",
+          "offset": 880,
+          "kind": "instance"
+        },
+        {
+          "name": "needsBuildingPrivilegeToUse",
+          "offset": 884,
+          "kind": "instance"
+        },
+        {
+          "name": "requireAuthIfNotLocked",
+          "offset": 885,
+          "kind": "instance"
+        },
+        {
+          "name": "allowSorting",
+          "offset": 886,
+          "kind": "instance"
+        },
+        {
+          "name": "mustBeMountedToUse",
+          "offset": 887,
+          "kind": "instance"
+        },
+        {
+          "name": "openSound",
+          "offset": 888,
+          "kind": "instance"
+        },
+        {
+          "name": "closeSound",
+          "offset": 896,
+          "kind": "instance"
+        },
+        {
+          "name": "dropPosition",
+          "offset": 904,
+          "kind": "instance"
+        },
+        {
+          "name": "dropVelocity",
+          "offset": 916,
+          "kind": "instance"
+        },
+        {
+          "name": "onlyAcceptCategory",
+          "offset": 928,
+          "kind": "instance"
+        },
+        {
+          "name": "onlyOneUser",
+          "offset": 932,
+          "kind": "instance"
+        }
+      ]
+    },
+    "TOD_CycleParameters": {
+      "name": "TOD_CycleParameters",
+      "fields": [
+        {
+          "name": "Hour",
+          "offset": 16,
+          "kind": "instance"
+        },
+        {
+          "name": "Day",
+          "offset": 20,
+          "kind": "instance"
+        },
+        {
+          "name": "Month",
+          "offset": 24,
+          "kind": "instance"
+        },
+        {
+          "name": "Year",
+          "offset": 28,
+          "kind": "instance"
+        },
+        {
+          "name": "RedMoonLerp",
+          "offset": 32,
+          "kind": "instance"
+        }
+      ]
+    },
+    "TOD_DayParameters": {
+      "name": "TOD_DayParameters",
+      "fields": [
+        {
+          "name": "SunColor",
+          "offset": 16,
+          "kind": "instance"
+        },
+        {
+          "name": "LightColor",
+          "offset": 24,
+          "kind": "instance"
+        },
+        {
+          "name": "RayColor",
+          "offset": 32,
+          "kind": "instance"
+        },
+        {
+          "name": "SkyColor",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "CloudColor",
+          "offset": 48,
+          "kind": "instance"
+        },
+        {
+          "name": "FogColor",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "AmbientColor",
+          "offset": 64,
+          "kind": "instance"
+        },
+        {
+          "name": "_LightIntensity_k__BackingField",
+          "offset": 72,
+          "kind": "instance"
+        },
+        {
+          "name": "runtimeLightIntensity",
+          "offset": 76,
+          "kind": "instance"
+        },
+        {
+          "name": "ShadowStrength",
+          "offset": 80,
+          "kind": "instance"
+        },
+        {
+          "name": "_AmbientMultiplier_k__BackingField",
+          "offset": 84,
+          "kind": "instance"
+        },
+        {
+          "name": "runtimeAmbientMultiplier",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "_ReflectionMultiplier_k__BackingField",
+          "offset": 92,
+          "kind": "instance"
+        },
+        {
+          "name": "runtimeReflectionMultiplier",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "ReflectionMaxClamp",
+          "offset": 100,
+          "kind": "instance"
+        }
+      ]
+    },
+    "TOD_NightParameters": {
+      "name": "TOD_NightParameters",
+      "fields": [
+        {
+          "name": "MoonColor",
+          "offset": 16,
+          "kind": "instance"
+        },
+        {
+          "name": "MoonColorRed",
+          "offset": 24,
+          "kind": "instance"
+        },
+        {
+          "name": "LightColor",
+          "offset": 32,
+          "kind": "instance"
+        },
+        {
+          "name": "RayColor",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "SkyColor",
+          "offset": 48,
+          "kind": "instance"
+        },
+        {
+          "name": "CloudColor",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "FogColor",
+          "offset": 64,
+          "kind": "instance"
+        },
+        {
+          "name": "AmbientColor",
+          "offset": 72,
+          "kind": "instance"
+        },
+        {
+          "name": "_LightIntensity_k__BackingField",
+          "offset": 80,
+          "kind": "instance"
+        },
+        {
+          "name": "runtimeLightIntensity",
+          "offset": 84,
+          "kind": "instance"
+        },
+        {
+          "name": "ShadowStrength",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "_AmbientMultiplier_k__BackingField",
+          "offset": 92,
+          "kind": "instance"
+        },
+        {
+          "name": "runtimeAmbientMultiplier",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "_ReflectionMultiplier_k__BackingField",
+          "offset": 100,
+          "kind": "instance"
+        },
+        {
+          "name": "runtimeReflectionMultiplier",
+          "offset": 104,
+          "kind": "instance"
+        },
+        {
+          "name": "ReflectionMaxClamp",
+          "offset": 108,
+          "kind": "instance"
+        }
+      ]
+    },
+    "TOD_Sky": {
+      "name": "TOD_Sky",
+      "fields": [
+        {
+          "name": "ColorSpace",
+          "offset": 32,
+          "kind": "instance"
+        },
+        {
+          "name": "ColorRange",
+          "offset": 36,
+          "kind": "instance"
+        },
+        {
+          "name": "ColorOutput",
+          "offset": 40,
+          "kind": "instance"
+        },
+        {
+          "name": "SkyQuality",
+          "offset": 44,
+          "kind": "instance"
+        },
+        {
+          "name": "CloudQuality",
+          "offset": 48,
+          "kind": "instance"
+        },
+        {
+          "name": "MeshQuality",
+          "offset": 52,
+          "kind": "instance"
+        },
+        {
+          "name": "StarQuality",
+          "offset": 56,
+          "kind": "instance"
+        },
+        {
+          "name": "Cycle",
+          "offset": 64,
+          "kind": "instance"
+        },
+        {
+          "name": "World",
+          "offset": 72,
+          "kind": "instance"
+        },
+        {
+          "name": "Atmosphere",
+          "offset": 80,
+          "kind": "instance"
+        },
+        {
+          "name": "Day",
+          "offset": 88,
+          "kind": "instance"
+        },
+        {
+          "name": "Night",
+          "offset": 96,
+          "kind": "instance"
+        },
+        {
+          "name": "Sun",
+          "offset": 104,
+          "kind": "instance"
+        },
+        {
+          "name": "Moon",
+          "offset": 112,
+          "kind": "instance"
+        },
+        {
+          "name": "Stars",
+          "offset": 120,
+          "kind": "instance"
+        },
+        {
+          "name": "Clouds",
+          "offset": 128,
+          "kind": "instance"
+        },
+        {
+          "name": "Light",
+          "offset": 136,
+          "kind": "instance"
+        },
+        {
+          "name": "Fog",
+          "offset": 144,
+          "kind": "instance"
+        },
+        {
+          "name": "Ambient",
+          "offset": 152,
+          "kind": "instance"
+        },
+        {
+          "name": "Reflection",
+          "offset": 160,
+          "kind": "instance"
+        }
+      ]
+    },
+    "ViewModel": {
+      "name": "ViewModel",
+      "fields": [
+        {
+          "name": "viewModelPrefab",
+          "offset": 32,
+          "kind": "instance"
+        },
+        {
+          "name": "instance",
+          "offset": 40,
+          "kind": "instance"
+        }
+      ]
+    },
+    "WorldItem": {
+      "name": "WorldItem",
+      "fields": [
+        {
+          "name": "allowPickup",
+          "offset": 520,
+          "kind": "instance"
+        },
+        {
+          "name": "Item",
+          "offset": 528,
+          "kind": "instance"
+        }
+      ]
+    }
+  },
+  "resolved": {
+    "classes": {
+      "resolved": {},
+      "LootCrateSet": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TrainCarUnloadableLoot": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DevCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "FollowCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ProjectileAnimationSubSystem": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminConvarInfo": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "WaterCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GenerateSphereCmdsFromCapsuleCmdsJob": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelLocker": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ItemModOpenLootBag": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraSensorType": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_SteamInventoryCrafting": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ShowHealthThreshold": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BaseCombatEntity": {
+        "typeinfo_rva": 287953264,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "MobileInventoryEntity": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelRentableShopInventory": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SkinnedMultiMesh": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Trans_TargetIsLowHealth_fake_1": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DemoCameraKeySave_fake_0": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootDistanceOverride": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootOption": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TrainWagonLootData": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": true
+      },
+      "UI_FakeInventory": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "FBasic_TPPCameraBehaviour": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelMixingTable": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SeekingServerProjectile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraSettings": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DroppedItem": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelRecycler": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ShopFrontLootPanel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ProjectileWeaponMod": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelPlayerCorpse": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelBigWheelTerminal": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ViewModelCamera": {
+        "typeinfo_rva": 287064496,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "LootContainerAchievement": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DemoCameraKeySave": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ModelViewer_SkyParameters": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "InstancedCameraComponent": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TerrainMeta": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ValidateOverlapCapsuleCommandsJob": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "OvenLootPanel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_SettingsTweakPresetGraphics": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelChickenCoop": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": true
+      },
+      "ModelViewer_MainCameraParameters": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ProjectileTestSpawner": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelReclaim": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "_StartTimedLootAction_d__96": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelIndustrialCrafter": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DiggableEntityLoot": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ViewModel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_SteamInventoryCraftingModal": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelBiofuelGenerator": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BaseNetworkable": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "VolumeCloudsCameraComponent": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_SteamInventoryItem": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ProjectileSettings": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "AdminBonus": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "OrbitCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootFill": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelEngine": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UIInventory": {
+        "typeinfo_rva": 287663096,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "LootPanelWorkbenchUpgrades": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_SteamInventoryPlayerItemModal": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DroppedItemContainer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SteamInventoryGen": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "FreeableLootContainer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SkyLantern": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TerrainCollision": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "HealthThresholdToggle": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "StorageContainer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BackpackInventoryPanel": {
+        "typeinfo_rva": 287583200,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "UI_ServerAdminUGCEntryStub": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ScreenshotCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelToolCupboard": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BaseProjectile": {
+        "typeinfo_rva": 286792616,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "PlayerModelHairCap": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootSpawn": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DemoCameraPathSave_fake_0": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TorpedoServerProjectile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SlotMachineLootPanel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraEx": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BaseViewModel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Trans_IsHealthBelowPercentage_fake_0": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "InstantCameraTool": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminUGCEntryImage": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerModelBenchmarkScene": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Door": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "FBasic_FreeCameraBehaviour": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerModelHair": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "HeldEntity": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerInput": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": true
+      },
+      "SpatialBiomeFogCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CargoshipCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminUGCEntryAudio": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GatherHitTestTraceCommandsJob": {
+        "typeinfo_rva": 287201960,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "CameraState": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraMan": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LAM_AutoGroundAlignBodyMatrix": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraFocusMode": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "HumanBodyResourceDispenser": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SteamInventoryBundle": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerLoot": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ProjectileWeaponInformationPanel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Signage": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BaseEntity": {
+        "typeinfo_rva": 287953304,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "SteamInventory": {
+        "typeinfo_rva": 287936704,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "LootPanelHorse": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelCardTableTerminal": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "RotateToCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerInventory": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "MLRSServerProjectile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootableCorpse": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Climate": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraTool": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraRendererManager": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ItemModProjectileRadialDamage": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootDistributionModifierType": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ItemDefinition": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SteamInventoryCategory": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LookatHealth": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraMode": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CapsuleColliderInfo": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BasePlayer": {
+        "typeinfo_rva": 287309296,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminPlayerInfo": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "VendingPanelAdminStats": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "HealthBelowEventUI": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminUGCEntry": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ModelViewer_MainCameraParameters_fake_0": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DemoCameraPathSave_fake_1": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "FindSphereCmdsInCapsuleCmdsJob": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootAllButton": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerModelMovement": {
+        "typeinfo_rva": 287856240,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "BeehiveLootPanel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ItemContainerSource": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminUGCEntryVendingMachine": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootGrid": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BuildingPrivlidge": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "VendingPanelAdmin": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TriggerLadder": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminPlayerEntry": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "RespawnableLootFridge": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BuildingBlock": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DebugCameraInfoReadout": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdmin": {
+        "typeinfo_rva": 287270400,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "UI_ServerAdminUGCEntryPattern": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ViewmodelCameraAnimationSync": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlanarReflectionCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminExpandedUgc": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DrawCameraFrustum": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GenerateOverlapCapsuleCommandsJob": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "WaterBodyType": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LAM_InsectBodyElevateHelper": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "MortarServerProjectile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ItemModProjectileSpawn": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TerrainHoleCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "IndirectInstancingCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "WaterBody": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerModel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelMannequin": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ServerProjectileTestSpawner": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_SteamInventoryItemBaseModal": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Trans_IsHealthBelowPercentage": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ItemModProjectile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DeployGuideCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelVendingMachine": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": true
+      },
+      "ThrownBoomerangServerProjectile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "RustCamera_1": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UIAdminStatusOverlay": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminUGCEntrySculpture": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ItemModProjectileMod": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_SteamInventoryNewItemModal": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BaseMelee": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraUpdateHook": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "RotateCameraAroundObject": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ViewmodelCameraAnimation": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DemoCameraPathSave": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ItemModProjectileDart": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerInventoryProperties": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_SteamInventory": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CursorManager": {
+        "typeinfo_rva": 287713936,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "SteamInventoryAsset": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_ServerAdminUGCFilterPanel": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "InventoryUI": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ItemModProjectileRagdoll": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelTrophyStand": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SkyProbe": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "WaterSystem": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UICameraOverlay": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SatelliteSkyTrail": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DeployVolumeCapsule": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelOven": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Projectile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerModelLayer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerWalkMovement": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelContainer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ContainerSourceLoot": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "AdminExistingSellOrder": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelWaterCatcher": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootPanelFrankensteinTable": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "EffectScaleWithCameraDistance": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Trans_TargetIsLowHealth": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "AttackEntity": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerEyes": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SatelliteCameraProxyBase": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ProjectileModPartVisibility": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "WorldItem": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "WhitelistLootContainer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootTypeModifier": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerModelSkin": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraPathEvaluateJob": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SteamInventoryItem": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootSpawnSlot": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "LootContainer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerModelCinematicAnimation": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerModelCinematicList": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ServerProjectile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SnowballGunProjectile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ModelViewer_SkyParameters_fake_0": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SteamInventoryBundleDirectory": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": true
+      },
+      "MainCamera": {
+        "typeinfo_rva": 287064992,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "InstantCameraFlashController": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Trans_TargetIsLowHealth_fake_0": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "NVGCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": true
+      },
+      "UI_ServerAdminServerInfo": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "UI_VendingMachineAdminDialog": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TOD_Camera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TOD_DayParameters": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraMotionBlur": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TOD_CycleParameters": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TOD_NightParameters": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TOD_SkyQualityType": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TOD_Sky": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "TOD_LoadSkyFromFile": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "WorkshopCameraKeybindAnchor": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "_SetCameraPositionAndTakeScreenshot_d__46": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Object": {
+        "typeinfo_rva": 287152528,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "GamePhysics": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SteamInventoryRecipeIndex": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Networkable": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "_InventoryDropAsync_d__28": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CursorManager_2": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraRayEnumerator": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraScreenRaycaster": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "MainCameraScreenRaycaster": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraBufferSettings": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "RustRenderPipelineCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": true
+      },
+      "CameraSettings_fake_0": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraSettings_2": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ICameraHistoryWriteAccess": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ICameraHistoryReadAccess": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraHistoryItem": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraSwitcher": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "FreeCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Item": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraSelector": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "RenderPipelineGraphicsSettingsContainer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraEntry": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraCaptureBridge": {
+        "typeinfo_rva": 287418128,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "XRGraphicsAutomatedTests": {
+        "typeinfo_rva": 287940584,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "Sky": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PlayerInput_2": {
+        "typeinfo_rva": 287844232,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "Behaviour": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "InputState": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraCallback": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Camera": {
+        "typeinfo_rva": 287580688,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "Graphics": {
+        "typeinfo_rva": 287696600,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "Renderer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsBufferHandle": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsBuffer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraType": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraClearFlags": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SkinnedMeshRenderer": {
+        "typeinfo_rva": 287717992,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "Behaviour_2": {
+        "typeinfo_rva": 287934112,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "Component": {
+        "typeinfo_rva": 287182200,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "GameObject": {
+        "typeinfo_rva": 287830160,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "MonoBehaviour": {
+        "typeinfo_rva": 287059856,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "Object_2": {
+        "typeinfo_rva": 287674600,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "Transform": {
+        "typeinfo_rva": 287022384,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "UpdateCameraMotionVectors": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "EndGraphicsJobsAfterScriptUpdate": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "EndGraphicsJobsAfterScriptLateUpdate": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsWarmupPreloadedShaders": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraEvent": {
+        "typeinfo_rva": 287783072,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "CameraEventUtils": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsDeviceType": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraLateLatchMatrixType": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsFenceType": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsFence": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsSettings": {
+        "typeinfo_rva": 287674592,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "IRenderPipelineGraphicsSettings": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "RenderPipelineGraphicsSettingsCollection": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "RenderPipelineGraphicsSettingsExtensions": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CoreCameraValues": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "_m_CameraCullPlanes_e__FixedBuffer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraProperties": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraPlayable": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsJobsSyncPoint": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsDeviceSettings": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "GraphicsFormatUsage": {
+        "typeinfo_rva": 287253168,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "GraphicsFormat": {
+        "typeinfo_rva": 287937928,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "GraphicsFormatUtility": {
+        "typeinfo_rva": 287709608,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "Item_2": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Component_2": {
+        "typeinfo_rva": 286810320,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "_AddBodyParamsAndHeadersAsync_d__7": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraPathAlgorithm": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Administrator": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "DemoCameraMode": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ISteamInventory": {
+        "typeinfo_rva": 287081608,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "SteamInventory_2": {
+        "typeinfo_rva": 287286648,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "InventoryDef": {
+        "typeinfo_rva": 287079560,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "InventoryItem": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "InventoryRecipe": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "InventoryResult": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Item_3": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SteamInventoryResultReady_t": {
+        "typeinfo_rva": 287156432,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "SteamInventoryFullUpdate_t": {
+        "typeinfo_rva": 287156440,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "SteamInventoryDefinitionUpdate_t": {
+        "typeinfo_rva": 287156456,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "SteamInventoryEligiblePromoItemDefIDs_t": {
+        "typeinfo_rva": 287156352,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "SteamInventoryStartPurchaseResult_t": {
+        "typeinfo_rva": 287156376,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "SteamInventoryRequestPricesResult_t": {
+        "typeinfo_rva": 287079928,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "InventoryItemId": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "InventoryDefId": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SteamInventoryResult_t": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "SteamInventoryUpdateHandle_t": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "InventoryPurchaseResult": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "_InventoryDropAsync_d__28_2": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ResponseBodyPolicy": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "HumanBodyBones": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "AvatarMaskBodyPart": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CapsuleDirection2D": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CapsuleCollider2D": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BodyType": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BodyConstraints": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PhysicsBody": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PhysicsBodyDefinition": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "IBodyUpdateCallback": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BodyUpdateTarget": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BodyUpdateCallbackTargets": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BodyUpdateEvent": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CapsuleGeometryElement": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CapsuleGeometryDrawer": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CinemachineCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraBlendStack": {
+        "typeinfo_rva": 287133832,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "Item_4": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraState_2": {
+        "typeinfo_rva": 287134648,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "CameraStateExtensions": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraTarget": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraUpdateManager": {
+        "typeinfo_rva": 287134472,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "CinemachineCameraManagerBase": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraEvent_2": {
+        "typeinfo_rva": 287133208,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "CinemachineVirtualCameraBase": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "ICinemachineCamera": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Item_5": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "VirtualCameraRegistry": {
+        "typeinfo_rva": 287133496,
+        "typeinfo_verified": true,
+        "static_block_resolved": false
+      },
+      "CapsuleCollider": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Collider": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Physics": {
+        "typeinfo_rva": 287325544,
+        "typeinfo_verified": true,
+        "static_block_resolved": true
+      },
+      "OverlapCapsuleCommand": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "Rigidbody": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "BodySide": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "PerCameraInstanceDataArrays": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CPUPerCameraInstanceData": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "CameraRaycastHelper": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "HitInfo": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      },
+      "VFXCameraXRSettings": {
+        "typeinfo_rva": 0,
+        "typeinfo_verified": false,
+        "static_block_resolved": false
+      }
+    },
+    "chain": {
+      "verified": false,
+      "population_proven": false
+    }
+  }
+}
